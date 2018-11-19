@@ -1,0 +1,1633 @@
+181119-15:15:41 [INFO] -- 
+181119-15:15:41 [INFO] -- 
+181119-15:15:41 [INFO] -- ============================================================
+181119-15:15:41 [INFO] -- AppKickstarter: Application Starting...
+181119-15:15:41 [INFO] -- Thread_kiosk_Panel10: starting...
+181119-15:15:41 [INFO] -- Thread_Elevator_Panel5: starting...
+181119-15:15:41 [INFO] -- Thread_Elevator_Panel4: starting...
+181119-15:15:41 [INFO] -- Thread_Elevator_Panel3: starting...
+181119-15:15:41 [INFO] -- Thread_Elevator_Panel2: starting...
+181119-15:15:41 [INFO] -- Thread_Elevator_Panel1: starting...
+181119-15:15:41 [INFO] -- Thread_kiosk_Panel6: starting...
+181119-15:15:41 [INFO] -- Thread_kiosk_Panel8: starting...
+181119-15:15:41 [INFO] -- Thread_kiosk_Panel9: starting...
+181119-15:15:41 [INFO] -- Thread_kiosk_Panel5: starting...
+181119-15:15:41 [INFO] -- Thread_kiosk_Panel1: starting...
+181119-15:15:41 [INFO] -- Thread_kiosk_Panel7: starting...
+181119-15:15:41 [INFO] -- Thread_Server: starting...
+181119-15:15:41 [INFO] -- timer: starting...
+181119-15:15:41 [INFO] -- Thread_kiosk_Panel2: starting...
+181119-15:15:41 [INFO] -- Thread_Elevator_Panel6: starting...
+181119-15:15:41 [INFO] -- Thread_kiosk_Panel3: starting...
+181119-15:15:41 [INFO] -- Thread_kiosk_Panel4: starting...
+181119-15:15:41 [INFO] -- Thread_Central_Control_Panel: starting...
+181119-15:15:41 [INFO] -- Thread_kiosk_Panel6: receiving timesup at 00:00:05
+181119-15:15:41 [INFO] -- Thread_Elevator_Panel3: receiving timesup at 00:00:05
+181119-15:15:41 [INFO] -- Thread_Central_Control_Panel: receiving timesup at 00:00:05
+181119-15:15:41 [INFO] -- Thread_Elevator_Panel2: receiving timesup at 00:00:05
+181119-15:15:41 [INFO] -- Thread_Elevator_Panel6: receiving timesup at 00:00:05
+181119-15:15:41 [INFO] -- Thread_Elevator_Panel4: receiving timesup at 00:00:05
+181119-15:15:41 [INFO] -- Thread_Elevator_Panel1: receiving timesup at 00:00:05
+181119-15:15:41 [INFO] -- Thread_Elevator_Panel5: receiving timesup at 00:00:05
+181119-15:15:41 [INFO] -- Thread_kiosk_Panel8: receiving timesup at 00:00:05
+181119-15:15:41 [INFO] -- Thread_kiosk_Panel9: receiving timesup at 00:00:05
+181119-15:15:41 [INFO] -- Thread_kiosk_Panel10: receiving timesup at 00:00:05
+181119-15:15:41 [INFO] -- Thread_kiosk_Panel7: receiving timesup at 00:00:05
+181119-15:15:41 [INFO] -- Thread_kiosk_Panel3: receiving timesup at 00:00:05
+181119-15:15:41 [INFO] -- Thread_kiosk_Panel1: receiving timesup at 00:00:05
+181119-15:15:41 [INFO] -- Thread_kiosk_Panel2: receiving timesup at 00:00:05
+181119-15:15:41 [INFO] -- Thread_kiosk_Panel4: receiving timesup at 00:00:05
+181119-15:15:41 [INFO] -- Thread_kiosk_Panel5: receiving timesup at 00:00:05
+181119-15:15:42 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Central_Control_Panel: send request Admin_Req to Thread_Server
+181119-15:15:42 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:42 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:42 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:42 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:42 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:42 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_kiosk_Panel4]: message received: [Svc_Req] 
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel2: send request Elev_Arr to Thread_Server
+181119-15:15:42 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:42 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:42 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Central_Control_Panel: send request Admin_Alert to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel5: send request Elev_Arr to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel1: send request Elev_Arr to Thread_Server
+181119-15:15:42 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel4
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel2: send request Elev_Dep to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel3: send request Elev_Arr to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel6: send request Elev_Arr to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel1: send request Elev_Dep to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel6: send request Elev_Dep to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel4: send request Elev_Arr to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel5: send request Elev_Dep to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel4: send request Elev_Dep to Thread_Server
+181119-15:15:42 [INFO] -- Send job request to Thread_Elevator_Panel4
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel4: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Req] 
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel3: send request Elev_Dep to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Central_Control_Panel: [Thread_Server]: message received: [Thread_Server (Admin_Reply) -- null] 
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Req] 
+181119-15:15:42 [INFO] -- Receive admin panel alert from Thread_Central_Control_Panel
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel4 Update kiosk panel information
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel4: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel4: send request Elev_Reply to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_kiosk_Panel5]: message received: [Svc_Req] 
+181119-15:15:42 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel5
+181119-15:15:42 [INFO] -- Send job request to Thread_Elevator_Panel4
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel5: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel5 Update kiosk panel information
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel4: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_kiosk_Panel9]: message received: [Svc_Req] 
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel4: send request Elev_Reply to Thread_Server
+181119-15:15:42 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel9
+181119-15:15:42 [INFO] -- Send job request to Thread_Elevator_Panel3
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel9: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_kiosk_Panel2]: message received: [Svc_Req] 
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel3: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:42 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel2
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel9 Update kiosk panel information
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel3: send request Elev_Reply to Thread_Server
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel2: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel2 Update kiosk panel information
+181119-15:15:42 [INFO] -- Send job request to Thread_Elevator_Panel2
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_kiosk_Panel6]: message received: [Svc_Req] 
+181119-15:15:42 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel6
+181119-15:15:42 [INFO] -- Send job request to Thread_Elevator_Panel3
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_kiosk_Panel1]: message received: [Svc_Req] 
+181119-15:15:42 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel1
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel2: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel6: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel6 Update kiosk panel information
+181119-15:15:42 [INFO] -- Send job request to Thread_Elevator_Panel2
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel2: send request Elev_Reply to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_kiosk_Panel10]: message received: [Svc_Req] 
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel3: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel1: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel3: send request Elev_Reply to Thread_Server
+181119-15:15:42 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel10
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel2: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:42 [INFO] -- Send job request to Thread_Elevator_Panel5
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel1 Update kiosk panel information
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Arr] 
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel2: send request Elev_Reply to Thread_Server
+181119-15:15:42 [INFO] -- Receive elevator update from Thread_Elevator_Panel2
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel10: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_kiosk_Panel3]: message received: [Svc_Req] 
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel10 Update kiosk panel information
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel5: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:42 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel3
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel5: send request Elev_Reply to Thread_Server
+181119-15:15:42 [INFO] -- Send job request to Thread_Elevator_Panel2
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel3: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_kiosk_Panel7]: message received: [Svc_Req] 
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel3 Update kiosk panel information
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel2: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:42 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel7
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel2: send request Elev_Reply to Thread_Server
+181119-15:15:42 [INFO] -- Send job request to Thread_Elevator_Panel4
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel7: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_kiosk_Panel8]: message received: [Svc_Req] 
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel4: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel7 Update kiosk panel information
+181119-15:15:42 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel8
+181119-15:15:42 [INFO] -- Send job request to Thread_Elevator_Panel5
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Alert] 
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel4: send request Elev_Reply to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel5: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel5: send request Elev_Reply to Thread_Server
+181119-15:15:42 [INFO] -- Receive admin panel alert from Thread_Central_Control_Panel
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel8: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Arr] 
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel8 Update kiosk panel information
+181119-15:15:42 [INFO] -- Receive elevator update from Thread_Elevator_Panel5
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Arr] 
+181119-15:15:42 [INFO] -- Receive elevator update from Thread_Elevator_Panel1
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Dep] 
+181119-15:15:42 [INFO] -- Receive elevator update from Thread_Elevator_Panel2
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Arr] 
+181119-15:15:42 [INFO] -- Receive elevator update from Thread_Elevator_Panel3
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel6]: message received: [Elev_Arr] 
+181119-15:15:42 [INFO] -- Receive elevator update from Thread_Elevator_Panel6
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Dep] 
+181119-15:15:42 [INFO] -- Receive elevator update from Thread_Elevator_Panel1
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel6]: message received: [Elev_Dep] 
+181119-15:15:42 [INFO] -- Receive elevator update from Thread_Elevator_Panel6
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Arr] 
+181119-15:15:42 [INFO] -- Receive elevator update from Thread_Elevator_Panel4
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Dep] 
+181119-15:15:42 [INFO] -- Receive elevator update from Thread_Elevator_Panel5
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Dep] 
+181119-15:15:42 [INFO] -- Receive elevator update from Thread_Elevator_Panel4
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Dep] 
+181119-15:15:42 [INFO] -- Receive elevator update from Thread_Elevator_Panel3
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Reply] 
+181119-15:15:42 [INFO] -- Receive elevator reply from Thread_Elevator_Panel4
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Reply] 
+181119-15:15:42 [INFO] -- Receive elevator reply from Thread_Elevator_Panel4
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Reply] 
+181119-15:15:42 [INFO] -- Receive elevator reply from Thread_Elevator_Panel3
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Reply] 
+181119-15:15:42 [INFO] -- Receive elevator reply from Thread_Elevator_Panel2
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Reply] 
+181119-15:15:42 [INFO] -- Receive elevator reply from Thread_Elevator_Panel3
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Reply] 
+181119-15:15:42 [INFO] -- Receive elevator reply from Thread_Elevator_Panel2
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Reply] 
+181119-15:15:42 [INFO] -- Receive elevator reply from Thread_Elevator_Panel5
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Reply] 
+181119-15:15:42 [INFO] -- Receive elevator reply from Thread_Elevator_Panel2
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Reply] 
+181119-15:15:42 [INFO] -- Receive elevator reply from Thread_Elevator_Panel4
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Reply] 
+181119-15:15:42 [INFO] -- Receive elevator reply from Thread_Elevator_Panel5
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel4: receiving timesup at 00:00:10
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel6: receiving timesup at 00:00:10
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel2: receiving timesup at 00:00:10
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel5: receiving timesup at 00:00:10
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel6: receiving timesup at 00:00:10
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel3: receiving timesup at 00:00:10
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel5: receiving timesup at 00:00:10
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel1: receiving timesup at 00:00:10
+181119-15:15:42 [INFO] -- Thread_Central_Control_Panel: receiving timesup at 00:00:10
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel7: receiving timesup at 00:00:10
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel1: receiving timesup at 00:00:10
+181119-15:15:42 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel8: receiving timesup at 00:00:10
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel4: receiving timesup at 00:00:10
+181119-15:15:42 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:42 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_kiosk_Panel7]: message received: [Svc_Req] 
+181119-15:15:42 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:42 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel6: send request Elev_Arr to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel1: send request Elev_Arr to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel4: send request Elev_Arr to Thread_Server
+181119-15:15:42 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Central_Control_Panel: send request Admin_Req to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel2: send request Elev_Arr to Thread_Server
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel10: receiving timesup at 00:00:10
+181119-15:15:42 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel9: receiving timesup at 00:00:10
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel2: receiving timesup at 00:00:10
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel5: send request Elev_Arr to Thread_Server
+181119-15:15:42 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:42 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:42 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel2: send request Elev_Dep to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Central_Control_Panel: send request Admin_Alert to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel4: send request Elev_Dep to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel3: receiving timesup at 00:00:10
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel1: send request Elev_Dep to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel6: send request Elev_Dep to Thread_Server
+181119-15:15:42 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel7
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel3: send request Elev_Arr to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel5: send request Elev_Dep to Thread_Server
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel7: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:42 [INFO] -- Send job request to Thread_Elevator_Panel4
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel7 Update kiosk panel information
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel3: send request Elev_Dep to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel4: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_kiosk_Panel8]: message received: [Svc_Req] 
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel4: send request Elev_Reply to Thread_Server
+181119-15:15:42 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel8
+181119-15:15:42 [INFO] -- Send job request to Thread_Elevator_Panel2
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel8: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_kiosk_Panel4]: message received: [Svc_Req] 
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel2: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel2: send request Elev_Reply to Thread_Server
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel8 Update kiosk panel information
+181119-15:15:42 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel4
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel4: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:42 [INFO] -- Send job request to Thread_Elevator_Panel4
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel4 Update kiosk panel information
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_kiosk_Panel3]: message received: [Svc_Req] 
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel4: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:42 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel3
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel4: send request Elev_Reply to Thread_Server
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel3: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:42 [INFO] -- Send job request to Thread_Elevator_Panel1
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel3 Update kiosk panel information
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_kiosk_Panel5]: message received: [Svc_Req] 
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel1: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:42 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel5
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel1: send request Elev_Reply to Thread_Server
+181119-15:15:42 [INFO] -- Send job request to Thread_Elevator_Panel2
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel5: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel5 Update kiosk panel information
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel6]: message received: [Elev_Arr] 
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel2: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:42 [INFO] -- Receive elevator update from Thread_Elevator_Panel6
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel2: send request Elev_Reply to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Arr] 
+181119-15:15:42 [INFO] -- Receive elevator update from Thread_Elevator_Panel1
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Arr] 
+181119-15:15:42 [INFO] -- Receive elevator update from Thread_Elevator_Panel4
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_kiosk_Panel1]: message received: [Svc_Req] 
+181119-15:15:42 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel1
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel1: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:42 [INFO] -- Send job request to Thread_Elevator_Panel3
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel1 Update kiosk panel information
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel3: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Req] 
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel3: send request Elev_Reply to Thread_Server
+181119-15:15:42 [INFO] -- Thread_Central_Control_Panel: [Thread_Server]: message received: [Thread_Server (Admin_Reply) -- null] 
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Req] 
+181119-15:15:42 [INFO] -- Receive admin panel alert from Thread_Central_Control_Panel
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Arr] 
+181119-15:15:42 [INFO] -- Receive elevator update from Thread_Elevator_Panel2
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_kiosk_Panel6]: message received: [Svc_Req] 
+181119-15:15:42 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel6
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel6: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:42 [INFO] -- Send job request to Thread_Elevator_Panel4
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel6 Update kiosk panel information
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel4: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Arr] 
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel4: send request Elev_Reply to Thread_Server
+181119-15:15:42 [INFO] -- Receive elevator update from Thread_Elevator_Panel5
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_kiosk_Panel2]: message received: [Svc_Req] 
+181119-15:15:42 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel2
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel2: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:42 [INFO] -- Send job request to Thread_Elevator_Panel4
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel2 Update kiosk panel information
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_kiosk_Panel9]: message received: [Svc_Req] 
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel4: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:42 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel9
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel4: send request Elev_Reply to Thread_Server
+181119-15:15:42 [INFO] -- Send job request to Thread_Elevator_Panel3
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel9: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel3: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel9 Update kiosk panel information
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_kiosk_Panel10]: message received: [Svc_Req] 
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel3: send request Elev_Reply to Thread_Server
+181119-15:15:42 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel10
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel10: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:42 [INFO] -- Send job request to Thread_Elevator_Panel3
+181119-15:15:42 [INFO] -- Thread_kiosk_Panel10 Update kiosk panel information
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel3: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Dep] 
+181119-15:15:42 [INFO] -- Thread_Elevator_Panel3: send request Elev_Reply to Thread_Server
+181119-15:15:42 [INFO] -- Receive elevator update from Thread_Elevator_Panel2
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Alert] 
+181119-15:15:42 [INFO] -- Receive admin panel alert from Thread_Central_Control_Panel
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Dep] 
+181119-15:15:42 [INFO] -- Receive elevator update from Thread_Elevator_Panel4
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Dep] 
+181119-15:15:42 [INFO] -- Receive elevator update from Thread_Elevator_Panel1
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel6]: message received: [Elev_Dep] 
+181119-15:15:42 [INFO] -- Receive elevator update from Thread_Elevator_Panel6
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Arr] 
+181119-15:15:42 [INFO] -- Receive elevator update from Thread_Elevator_Panel3
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Dep] 
+181119-15:15:42 [INFO] -- Receive elevator update from Thread_Elevator_Panel5
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Dep] 
+181119-15:15:42 [INFO] -- Receive elevator update from Thread_Elevator_Panel3
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Reply] 
+181119-15:15:42 [INFO] -- Receive elevator reply from Thread_Elevator_Panel4
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Reply] 
+181119-15:15:42 [INFO] -- Receive elevator reply from Thread_Elevator_Panel2
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Reply] 
+181119-15:15:42 [INFO] -- Receive elevator reply from Thread_Elevator_Panel4
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Reply] 
+181119-15:15:42 [INFO] -- Receive elevator reply from Thread_Elevator_Panel1
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Reply] 
+181119-15:15:42 [INFO] -- Receive elevator reply from Thread_Elevator_Panel2
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Reply] 
+181119-15:15:42 [INFO] -- Receive elevator reply from Thread_Elevator_Panel3
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Reply] 
+181119-15:15:42 [INFO] -- Receive elevator reply from Thread_Elevator_Panel4
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Reply] 
+181119-15:15:42 [INFO] -- Receive elevator reply from Thread_Elevator_Panel4
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Reply] 
+181119-15:15:42 [INFO] -- Receive elevator reply from Thread_Elevator_Panel3
+181119-15:15:42 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Reply] 
+181119-15:15:42 [INFO] -- Receive elevator reply from Thread_Elevator_Panel3
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel4: receiving timesup at 00:00:15
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel5: receiving timesup at 00:00:15
+181119-15:15:43 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:43 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel8: receiving timesup at 00:00:15
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel7: receiving timesup at 00:00:15
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel3: receiving timesup at 00:00:15
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_kiosk_Panel4]: message received: [Svc_Req] 
+181119-15:15:43 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:43 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:43 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:43 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel4
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel4: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:43 [INFO] -- Send job request to Thread_Elevator_Panel3
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel4 Update kiosk panel information
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel3: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_kiosk_Panel5]: message received: [Svc_Req] 
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel3: send request Elev_Reply to Thread_Server
+181119-15:15:43 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel5
+181119-15:15:43 [INFO] -- Send job request to Thread_Elevator_Panel2
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel5: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel2: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel5 Update kiosk panel information
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel2: send request Elev_Reply to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_kiosk_Panel3]: message received: [Svc_Req] 
+181119-15:15:43 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel3
+181119-15:15:43 [INFO] -- Send job request to Thread_Elevator_Panel2
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel3: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel3 Update kiosk panel information
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_kiosk_Panel7]: message received: [Svc_Req] 
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel2: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:43 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel7
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel2: send request Elev_Reply to Thread_Server
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel7: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:43 [INFO] -- Send job request to Thread_Elevator_Panel4
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel7 Update kiosk panel information
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_kiosk_Panel8]: message received: [Svc_Req] 
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel4: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:43 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel8
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel8: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel6: receiving timesup at 00:00:15
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel3: receiving timesup at 00:00:15
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel5: receiving timesup at 00:00:15
+181119-15:15:43 [INFO] -- Thread_Central_Control_Panel: receiving timesup at 00:00:15
+181119-15:15:43 [INFO] -- Send job request to Thread_Elevator_Panel3
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel5: send request Elev_Arr to Thread_Server
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel1: receiving timesup at 00:00:15
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel6: receiving timesup at 00:00:15
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel9: receiving timesup at 00:00:15
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel6: send request Elev_Arr to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel3: send request Elev_Arr to Thread_Server
+181119-15:15:43 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel6: send request Elev_Dep to Thread_Server
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel8 Update kiosk panel information
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel1: receiving timesup at 00:00:15
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel4: send request Elev_Reply to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel2: receiving timesup at 00:00:15
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel4: receiving timesup at 00:00:15
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel2: send request Elev_Arr to Thread_Server
+181119-15:15:43 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:43 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel2: receiving timesup at 00:00:15
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel10: receiving timesup at 00:00:15
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel5: send request Elev_Dep to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Central_Control_Panel: send request Admin_Req to Thread_Server
+181119-15:15:43 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:43 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel2: send request Elev_Dep to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel4: send request Elev_Arr to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel1: send request Elev_Arr to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel3: send request Elev_Dep to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel1: send request Elev_Dep to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Reply] 
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel3: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel4: send request Elev_Dep to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel3: send request Elev_Reply to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Central_Control_Panel: send request Admin_Alert to Thread_Server
+181119-15:15:43 [INFO] -- Receive elevator reply from Thread_Elevator_Panel3
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Reply] 
+181119-15:15:43 [INFO] -- Receive elevator reply from Thread_Elevator_Panel2
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Reply] 
+181119-15:15:43 [INFO] -- Receive elevator reply from Thread_Elevator_Panel2
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Arr] 
+181119-15:15:43 [INFO] -- Receive elevator update from Thread_Elevator_Panel5
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel6]: message received: [Elev_Arr] 
+181119-15:15:43 [INFO] -- Receive elevator update from Thread_Elevator_Panel6
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Arr] 
+181119-15:15:43 [INFO] -- Receive elevator update from Thread_Elevator_Panel3
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_kiosk_Panel9]: message received: [Svc_Req] 
+181119-15:15:43 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel9
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel9: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:43 [INFO] -- Send job request to Thread_Elevator_Panel2
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel9 Update kiosk panel information
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel2: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel6]: message received: [Elev_Dep] 
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel2: send request Elev_Reply to Thread_Server
+181119-15:15:43 [INFO] -- Receive elevator update from Thread_Elevator_Panel6
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Reply] 
+181119-15:15:43 [INFO] -- Receive elevator reply from Thread_Elevator_Panel4
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Arr] 
+181119-15:15:43 [INFO] -- Receive elevator update from Thread_Elevator_Panel2
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_kiosk_Panel6]: message received: [Svc_Req] 
+181119-15:15:43 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel6
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel6: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:43 [INFO] -- Send job request to Thread_Elevator_Panel3
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel6 Update kiosk panel information
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_kiosk_Panel1]: message received: [Svc_Req] 
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel3: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:43 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel1
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel3: send request Elev_Reply to Thread_Server
+181119-15:15:43 [INFO] -- Send job request to Thread_Elevator_Panel5
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel1: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel5: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Dep] 
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel1 Update kiosk panel information
+181119-15:15:43 [INFO] -- Receive elevator update from Thread_Elevator_Panel5
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel5: send request Elev_Reply to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Req] 
+181119-15:15:43 [INFO] -- Thread_Central_Control_Panel: [Thread_Server]: message received: [Thread_Server (Admin_Reply) -- null] 
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Req] 
+181119-15:15:43 [INFO] -- Receive admin panel alert from Thread_Central_Control_Panel
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_kiosk_Panel10]: message received: [Svc_Req] 
+181119-15:15:43 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel10
+181119-15:15:43 [INFO] -- Send job request to Thread_Elevator_Panel3
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel10: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel3: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_kiosk_Panel2]: message received: [Svc_Req] 
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel10 Update kiosk panel information
+181119-15:15:43 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel2
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel3: send request Elev_Reply to Thread_Server
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel2: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:43 [INFO] -- Send job request to Thread_Elevator_Panel3
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel2 Update kiosk panel information
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Dep] 
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel3: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:43 [INFO] -- Receive elevator update from Thread_Elevator_Panel2
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel3: send request Elev_Reply to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Arr] 
+181119-15:15:43 [INFO] -- Receive elevator update from Thread_Elevator_Panel4
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Arr] 
+181119-15:15:43 [INFO] -- Receive elevator update from Thread_Elevator_Panel1
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Dep] 
+181119-15:15:43 [INFO] -- Receive elevator update from Thread_Elevator_Panel3
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Dep] 
+181119-15:15:43 [INFO] -- Receive elevator update from Thread_Elevator_Panel1
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Dep] 
+181119-15:15:43 [INFO] -- Receive elevator update from Thread_Elevator_Panel4
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Reply] 
+181119-15:15:43 [INFO] -- Receive elevator reply from Thread_Elevator_Panel3
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Alert] 
+181119-15:15:43 [INFO] -- Receive admin panel alert from Thread_Central_Control_Panel
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Reply] 
+181119-15:15:43 [INFO] -- Receive elevator reply from Thread_Elevator_Panel2
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Reply] 
+181119-15:15:43 [INFO] -- Receive elevator reply from Thread_Elevator_Panel3
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Reply] 
+181119-15:15:43 [INFO] -- Receive elevator reply from Thread_Elevator_Panel5
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Reply] 
+181119-15:15:43 [INFO] -- Receive elevator reply from Thread_Elevator_Panel3
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Reply] 
+181119-15:15:43 [INFO] -- Receive elevator reply from Thread_Elevator_Panel3
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel3: receiving timesup at 00:00:20
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel7: receiving timesup at 00:00:20
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel4: receiving timesup at 00:00:20
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel5: receiving timesup at 00:00:20
+181119-15:15:43 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel8: receiving timesup at 00:00:20
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_kiosk_Panel4]: message received: [Svc_Req] 
+181119-15:15:43 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:43 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:43 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:43 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel4
+181119-15:15:43 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel4: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:43 [INFO] -- Send job request to Thread_Elevator_Panel4
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel4 Update kiosk panel information
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel4: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_kiosk_Panel5]: message received: [Svc_Req] 
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel4: send request Elev_Reply to Thread_Server
+181119-15:15:43 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel5
+181119-15:15:43 [INFO] -- Send job request to Thread_Elevator_Panel2
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel5: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel5 Update kiosk panel information
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_kiosk_Panel3]: message received: [Svc_Req] 
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel2: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:43 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel3
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel2: send request Elev_Reply to Thread_Server
+181119-15:15:43 [INFO] -- Send job request to Thread_Elevator_Panel1
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel3: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel1: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel3 Update kiosk panel information
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_kiosk_Panel7]: message received: [Svc_Req] 
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel1: send request Elev_Reply to Thread_Server
+181119-15:15:43 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel7
+181119-15:15:43 [INFO] -- Send job request to Thread_Elevator_Panel1
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel7: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_kiosk_Panel8]: message received: [Svc_Req] 
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel7 Update kiosk panel information
+181119-15:15:43 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel8
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel1: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:43 [INFO] -- Send job request to Thread_Elevator_Panel3
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel1: send request Elev_Reply to Thread_Server
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel8: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Reply] 
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel3: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:43 [INFO] -- Receive elevator reply from Thread_Elevator_Panel4
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel3: send request Elev_Reply to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Reply] 
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel8 Update kiosk panel information
+181119-15:15:43 [INFO] -- Receive elevator reply from Thread_Elevator_Panel2
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Reply] 
+181119-15:15:43 [INFO] -- Receive elevator reply from Thread_Elevator_Panel1
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Reply] 
+181119-15:15:43 [INFO] -- Receive elevator reply from Thread_Elevator_Panel1
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Reply] 
+181119-15:15:43 [INFO] -- Receive elevator reply from Thread_Elevator_Panel3
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel9: receiving timesup at 00:00:20
+181119-15:15:43 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel6: receiving timesup at 00:00:20
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel10: receiving timesup at 00:00:20
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel4: receiving timesup at 00:00:20
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_kiosk_Panel9]: message received: [Svc_Req] 
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel1: receiving timesup at 00:00:20
+181119-15:15:43 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel9
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel5: receiving timesup at 00:00:20
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel2: receiving timesup at 00:00:20
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel5: send request Elev_Arr to Thread_Server
+181119-15:15:43 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:43 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel1: receiving timesup at 00:00:20
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel3: receiving timesup at 00:00:20
+181119-15:15:43 [INFO] -- Thread_Central_Control_Panel: receiving timesup at 00:00:20
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel6: receiving timesup at 00:00:20
+181119-15:15:43 [INFO] -- Thread_Central_Control_Panel: send request Admin_Req to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel2: receiving timesup at 00:00:20
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel6: send request Elev_Arr to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Central_Control_Panel: send request Admin_Alert to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel3: send request Elev_Arr to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel1: send request Elev_Arr to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel5: send request Elev_Dep to Thread_Server
+181119-15:15:43 [INFO] -- Send job request to Thread_Elevator_Panel1
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel9: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:43 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel4: send request Elev_Arr to Thread_Server
+181119-15:15:43 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel4: send request Elev_Dep to Thread_Server
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel9 Update kiosk panel information
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Arr] 
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel1: send request Elev_Dep to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel3: send request Elev_Dep to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel6: send request Elev_Dep to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel2: send request Elev_Arr to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel1: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:43 [INFO] -- Receive elevator update from Thread_Elevator_Panel5
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel2: send request Elev_Dep to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel1: send request Elev_Reply to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_kiosk_Panel2]: message received: [Svc_Req] 
+181119-15:15:43 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel2
+181119-15:15:43 [INFO] -- Send job request to Thread_Elevator_Panel3
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel2: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_kiosk_Panel6]: message received: [Svc_Req] 
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel2 Update kiosk panel information
+181119-15:15:43 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel6
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel3: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:43 [INFO] -- Send job request to Thread_Elevator_Panel5
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel6: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel3: send request Elev_Reply to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Req] 
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel6 Update kiosk panel information
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel5: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:43 [INFO] -- Thread_Central_Control_Panel: [Thread_Server]: message received: [Thread_Server (Admin_Reply) -- null] 
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel5: send request Elev_Reply to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Req] 
+181119-15:15:43 [INFO] -- Receive admin panel alert from Thread_Central_Control_Panel
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel6]: message received: [Elev_Arr] 
+181119-15:15:43 [INFO] -- Receive elevator update from Thread_Elevator_Panel6
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Alert] 
+181119-15:15:43 [INFO] -- Receive admin panel alert from Thread_Central_Control_Panel
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Arr] 
+181119-15:15:43 [INFO] -- Receive elevator update from Thread_Elevator_Panel3
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Arr] 
+181119-15:15:43 [INFO] -- Receive elevator update from Thread_Elevator_Panel1
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Dep] 
+181119-15:15:43 [INFO] -- Receive elevator update from Thread_Elevator_Panel5
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_kiosk_Panel1]: message received: [Svc_Req] 
+181119-15:15:43 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel1
+181119-15:15:43 [INFO] -- Send job request to Thread_Elevator_Panel4
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel1: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Arr] 
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel1 Update kiosk panel information
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel4: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:43 [INFO] -- Receive elevator update from Thread_Elevator_Panel4
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel4: send request Elev_Reply to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_kiosk_Panel10]: message received: [Svc_Req] 
+181119-15:15:43 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel10
+181119-15:15:43 [INFO] -- Send job request to Thread_Elevator_Panel2
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel10: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Dep] 
+181119-15:15:43 [INFO] -- Thread_kiosk_Panel10 Update kiosk panel information
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel2: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:43 [INFO] -- Receive elevator update from Thread_Elevator_Panel4
+181119-15:15:43 [INFO] -- Thread_Elevator_Panel2: send request Elev_Reply to Thread_Server
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Dep] 
+181119-15:15:43 [INFO] -- Receive elevator update from Thread_Elevator_Panel1
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Dep] 
+181119-15:15:43 [INFO] -- Receive elevator update from Thread_Elevator_Panel3
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel6]: message received: [Elev_Dep] 
+181119-15:15:43 [INFO] -- Receive elevator update from Thread_Elevator_Panel6
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Arr] 
+181119-15:15:43 [INFO] -- Receive elevator update from Thread_Elevator_Panel2
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Dep] 
+181119-15:15:43 [INFO] -- Receive elevator update from Thread_Elevator_Panel2
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Reply] 
+181119-15:15:43 [INFO] -- Receive elevator reply from Thread_Elevator_Panel1
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Reply] 
+181119-15:15:43 [INFO] -- Receive elevator reply from Thread_Elevator_Panel3
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Reply] 
+181119-15:15:43 [INFO] -- Receive elevator reply from Thread_Elevator_Panel5
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Reply] 
+181119-15:15:43 [INFO] -- Receive elevator reply from Thread_Elevator_Panel4
+181119-15:15:43 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Reply] 
+181119-15:15:43 [INFO] -- Receive elevator reply from Thread_Elevator_Panel2
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel4: receiving timesup at 00:00:25
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel3: receiving timesup at 00:00:25
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel5: receiving timesup at 00:00:25
+181119-15:15:44 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel7: receiving timesup at 00:00:25
+181119-15:15:44 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:44 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel8: receiving timesup at 00:00:25
+181119-15:15:44 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_kiosk_Panel3]: message received: [Svc_Req] 
+181119-15:15:44 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:44 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel3
+181119-15:15:44 [INFO] -- Send job request to Thread_Elevator_Panel4
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel3: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel3 Update kiosk panel information
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_kiosk_Panel5]: message received: [Svc_Req] 
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel4: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:44 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel5
+181119-15:15:44 [INFO] -- Send job request to Thread_Elevator_Panel5
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel4: send request Elev_Reply to Thread_Server
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel5: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_kiosk_Panel4]: message received: [Svc_Req] 
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel5: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:44 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel4
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel5 Update kiosk panel information
+181119-15:15:44 [INFO] -- Send job request to Thread_Elevator_Panel2
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel5: send request Elev_Reply to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_kiosk_Panel7]: message received: [Svc_Req] 
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel4: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:44 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel7
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel2: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel4 Update kiosk panel information
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel7: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel2: send request Elev_Reply to Thread_Server
+181119-15:15:44 [INFO] -- Send job request to Thread_Elevator_Panel1
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel7 Update kiosk panel information
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_kiosk_Panel8]: message received: [Svc_Req] 
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel1: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:44 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel8
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel1: send request Elev_Reply to Thread_Server
+181119-15:15:44 [INFO] -- Send job request to Thread_Elevator_Panel5
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel8: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel5: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Reply] 
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel8 Update kiosk panel information
+181119-15:15:44 [INFO] -- Receive elevator reply from Thread_Elevator_Panel4
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel5: send request Elev_Reply to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Reply] 
+181119-15:15:44 [INFO] -- Receive elevator reply from Thread_Elevator_Panel5
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Reply] 
+181119-15:15:44 [INFO] -- Receive elevator reply from Thread_Elevator_Panel2
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Reply] 
+181119-15:15:44 [INFO] -- Receive elevator reply from Thread_Elevator_Panel1
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Reply] 
+181119-15:15:44 [INFO] -- Receive elevator reply from Thread_Elevator_Panel5
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel2: receiving timesup at 00:00:25
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel1: receiving timesup at 00:00:25
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel10: receiving timesup at 00:00:25
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel5: receiving timesup at 00:00:25
+181119-15:15:44 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel9: receiving timesup at 00:00:25
+181119-15:15:44 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel6: receiving timesup at 00:00:25
+181119-15:15:44 [INFO] -- Thread_Central_Control_Panel: receiving timesup at 00:00:25
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel1: receiving timesup at 00:00:25
+181119-15:15:44 [INFO] -- Thread_Central_Control_Panel: send request Admin_Req to Thread_Server
+181119-15:15:44 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:44 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_kiosk_Panel10]: message received: [Svc_Req] 
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel5: send request Elev_Arr to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel4: receiving timesup at 00:00:25
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel3: receiving timesup at 00:00:25
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel6: receiving timesup at 00:00:25
+181119-15:15:44 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel6: send request Elev_Arr to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel3: send request Elev_Arr to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel4: send request Elev_Arr to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel5: send request Elev_Dep to Thread_Server
+181119-15:15:44 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel10
+181119-15:15:44 [INFO] -- Thread_Central_Control_Panel: send request Admin_Alert to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel1: send request Elev_Arr to Thread_Server
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel10: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:44 [INFO] -- Send job request to Thread_Elevator_Panel4
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel4: send request Elev_Dep to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel3: send request Elev_Dep to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel6: send request Elev_Dep to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel4: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_kiosk_Panel1]: message received: [Svc_Req] 
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel4: send request Elev_Reply to Thread_Server
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel10 Update kiosk panel information
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel1: send request Elev_Dep to Thread_Server
+181119-15:15:44 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel1
+181119-15:15:44 [INFO] -- Send job request to Thread_Elevator_Panel4
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel1: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Req] 
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel1 Update kiosk panel information
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel4: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:44 [INFO] -- Thread_Central_Control_Panel: [Thread_Server]: message received: [Thread_Server (Admin_Reply) -- null] 
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Req] 
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel4: send request Elev_Reply to Thread_Server
+181119-15:15:44 [INFO] -- Receive admin panel alert from Thread_Central_Control_Panel
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_kiosk_Panel6]: message received: [Svc_Req] 
+181119-15:15:44 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel6
+181119-15:15:44 [INFO] -- Send job request to Thread_Elevator_Panel1
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel6: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel1: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel6 Update kiosk panel information
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_kiosk_Panel9]: message received: [Svc_Req] 
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel1: send request Elev_Reply to Thread_Server
+181119-15:15:44 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel9
+181119-15:15:44 [INFO] -- Send job request to Thread_Elevator_Panel5
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel9: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Arr] 
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel9 Update kiosk panel information
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel5: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:44 [INFO] -- Receive elevator update from Thread_Elevator_Panel5
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel5: send request Elev_Reply to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_kiosk_Panel2]: message received: [Svc_Req] 
+181119-15:15:44 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel2
+181119-15:15:44 [INFO] -- Send job request to Thread_Elevator_Panel1
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel2: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel6]: message received: [Elev_Arr] 
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel1: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:44 [INFO] -- Receive elevator update from Thread_Elevator_Panel6
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel2 Update kiosk panel information
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Arr] 
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel1: send request Elev_Reply to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel2: receiving timesup at 00:00:25
+181119-15:15:44 [INFO] -- Receive elevator update from Thread_Elevator_Panel3
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel2: send request Elev_Arr to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Arr] 
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel2: send request Elev_Dep to Thread_Server
+181119-15:15:44 [INFO] -- Receive elevator update from Thread_Elevator_Panel4
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Dep] 
+181119-15:15:44 [INFO] -- Receive elevator update from Thread_Elevator_Panel5
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Alert] 
+181119-15:15:44 [INFO] -- Receive admin panel alert from Thread_Central_Control_Panel
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Arr] 
+181119-15:15:44 [INFO] -- Receive elevator update from Thread_Elevator_Panel1
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Dep] 
+181119-15:15:44 [INFO] -- Receive elevator update from Thread_Elevator_Panel4
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Dep] 
+181119-15:15:44 [INFO] -- Receive elevator update from Thread_Elevator_Panel3
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel6]: message received: [Elev_Dep] 
+181119-15:15:44 [INFO] -- Receive elevator update from Thread_Elevator_Panel6
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Reply] 
+181119-15:15:44 [INFO] -- Receive elevator reply from Thread_Elevator_Panel4
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Dep] 
+181119-15:15:44 [INFO] -- Receive elevator update from Thread_Elevator_Panel1
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Reply] 
+181119-15:15:44 [INFO] -- Receive elevator reply from Thread_Elevator_Panel4
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Reply] 
+181119-15:15:44 [INFO] -- Receive elevator reply from Thread_Elevator_Panel1
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Reply] 
+181119-15:15:44 [INFO] -- Receive elevator reply from Thread_Elevator_Panel5
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Reply] 
+181119-15:15:44 [INFO] -- Receive elevator reply from Thread_Elevator_Panel1
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Arr] 
+181119-15:15:44 [INFO] -- Receive elevator update from Thread_Elevator_Panel2
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Dep] 
+181119-15:15:44 [INFO] -- Receive elevator update from Thread_Elevator_Panel2
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel5: receiving timesup at 00:00:30
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel2: receiving timesup at 00:00:30
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel1: receiving timesup at 00:00:30
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel10: receiving timesup at 00:00:30
+181119-15:15:44 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel9: receiving timesup at 00:00:30
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_kiosk_Panel10]: message received: [Svc_Req] 
+181119-15:15:44 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel2: receiving timesup at 00:00:30
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel6: receiving timesup at 00:00:30
+181119-15:15:44 [INFO] -- Thread_Central_Control_Panel: receiving timesup at 00:00:30
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel3: receiving timesup at 00:00:30
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel4: receiving timesup at 00:00:30
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel1: receiving timesup at 00:00:30
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel6: receiving timesup at 00:00:30
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel5: receiving timesup at 00:00:30
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel7: receiving timesup at 00:00:30
+181119-15:15:44 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel3: receiving timesup at 00:00:30
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel8: receiving timesup at 00:00:30
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel4: receiving timesup at 00:00:30
+181119-15:15:44 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:44 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel5: send request Elev_Arr to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel6: send request Elev_Arr to Thread_Server
+181119-15:15:44 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel4: send request Elev_Arr to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel3: send request Elev_Arr to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Central_Control_Panel: send request Admin_Req to Thread_Server
+181119-15:15:44 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:44 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:44 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel10
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel1: send request Elev_Arr to Thread_Server
+181119-15:15:44 [INFO] -- Send job request to Thread_Elevator_Panel3
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel1: send request Elev_Dep to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel2: send request Elev_Arr to Thread_Server
+181119-15:15:44 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel2: send request Elev_Dep to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_kiosk_Panel9]: message received: [Svc_Req] 
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel10: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:44 [INFO] -- Thread_Central_Control_Panel: send request Admin_Alert to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel3: send request Elev_Dep to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel4: send request Elev_Dep to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel6: send request Elev_Dep to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel5: send request Elev_Dep to Thread_Server
+181119-15:15:44 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel3: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel10 Update kiosk panel information
+181119-15:15:44 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel9
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel3: send request Elev_Reply to Thread_Server
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel9: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:44 [INFO] -- Send job request to Thread_Elevator_Panel1
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel9 Update kiosk panel information
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_kiosk_Panel7]: message received: [Svc_Req] 
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel1: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:44 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel7
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel1: send request Elev_Reply to Thread_Server
+181119-15:15:44 [INFO] -- Send job request to Thread_Elevator_Panel3
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel7: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_kiosk_Panel8]: message received: [Svc_Req] 
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel7 Update kiosk panel information
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel3: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:44 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel8
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel3: send request Elev_Reply to Thread_Server
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel8: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:44 [INFO] -- Send job request to Thread_Elevator_Panel2
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel8 Update kiosk panel information
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_kiosk_Panel3]: message received: [Svc_Req] 
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel2: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:44 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel3
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel2: send request Elev_Reply to Thread_Server
+181119-15:15:44 [INFO] -- Send job request to Thread_Elevator_Panel2
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel3: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel2: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Arr] 
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel2: send request Elev_Reply to Thread_Server
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel3 Update kiosk panel information
+181119-15:15:44 [INFO] -- Receive elevator update from Thread_Elevator_Panel5
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel6]: message received: [Elev_Arr] 
+181119-15:15:44 [INFO] -- Receive elevator update from Thread_Elevator_Panel6
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_kiosk_Panel1]: message received: [Svc_Req] 
+181119-15:15:44 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel1
+181119-15:15:44 [INFO] -- Send job request to Thread_Elevator_Panel1
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel1: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Arr] 
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel1 Update kiosk panel information
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel1: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:44 [INFO] -- Receive elevator update from Thread_Elevator_Panel4
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel1: send request Elev_Reply to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Arr] 
+181119-15:15:44 [INFO] -- Receive elevator update from Thread_Elevator_Panel3
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Req] 
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Req] 
+181119-15:15:44 [INFO] -- Thread_Central_Control_Panel: [Thread_Server]: message received: [Thread_Server (Admin_Reply) -- null] 
+181119-15:15:44 [INFO] -- Receive admin panel alert from Thread_Central_Control_Panel
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_kiosk_Panel6]: message received: [Svc_Req] 
+181119-15:15:44 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel6
+181119-15:15:44 [INFO] -- Send job request to Thread_Elevator_Panel3
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel6: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_kiosk_Panel2]: message received: [Svc_Req] 
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel6 Update kiosk panel information
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel3: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:44 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel2
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel3: send request Elev_Reply to Thread_Server
+181119-15:15:44 [INFO] -- Send job request to Thread_Elevator_Panel1
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel2: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Arr] 
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel2 Update kiosk panel information
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel1: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:44 [INFO] -- Receive elevator update from Thread_Elevator_Panel1
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel1: send request Elev_Reply to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Dep] 
+181119-15:15:44 [INFO] -- Receive elevator update from Thread_Elevator_Panel1
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Arr] 
+181119-15:15:44 [INFO] -- Receive elevator update from Thread_Elevator_Panel2
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_kiosk_Panel5]: message received: [Svc_Req] 
+181119-15:15:44 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel5
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel5: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:44 [INFO] -- Send job request to Thread_Elevator_Panel2
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel5 Update kiosk panel information
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel2: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Dep] 
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel2: send request Elev_Reply to Thread_Server
+181119-15:15:44 [INFO] -- Receive elevator update from Thread_Elevator_Panel2
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Alert] 
+181119-15:15:44 [INFO] -- Receive admin panel alert from Thread_Central_Control_Panel
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Dep] 
+181119-15:15:44 [INFO] -- Receive elevator update from Thread_Elevator_Panel3
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Dep] 
+181119-15:15:44 [INFO] -- Receive elevator update from Thread_Elevator_Panel4
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel6]: message received: [Elev_Dep] 
+181119-15:15:44 [INFO] -- Receive elevator update from Thread_Elevator_Panel6
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Dep] 
+181119-15:15:44 [INFO] -- Receive elevator update from Thread_Elevator_Panel5
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_kiosk_Panel4]: message received: [Svc_Req] 
+181119-15:15:44 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel4
+181119-15:15:44 [INFO] -- Send job request to Thread_Elevator_Panel5
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel4: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Reply] 
+181119-15:15:44 [INFO] -- Thread_kiosk_Panel4 Update kiosk panel information
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel5: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:44 [INFO] -- Receive elevator reply from Thread_Elevator_Panel3
+181119-15:15:44 [INFO] -- Thread_Elevator_Panel5: send request Elev_Reply to Thread_Server
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Reply] 
+181119-15:15:44 [INFO] -- Receive elevator reply from Thread_Elevator_Panel1
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Reply] 
+181119-15:15:44 [INFO] -- Receive elevator reply from Thread_Elevator_Panel3
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Reply] 
+181119-15:15:44 [INFO] -- Receive elevator reply from Thread_Elevator_Panel2
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Reply] 
+181119-15:15:44 [INFO] -- Receive elevator reply from Thread_Elevator_Panel2
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Reply] 
+181119-15:15:44 [INFO] -- Receive elevator reply from Thread_Elevator_Panel1
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Reply] 
+181119-15:15:44 [INFO] -- Receive elevator reply from Thread_Elevator_Panel3
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Reply] 
+181119-15:15:44 [INFO] -- Receive elevator reply from Thread_Elevator_Panel1
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Reply] 
+181119-15:15:44 [INFO] -- Receive elevator reply from Thread_Elevator_Panel2
+181119-15:15:44 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Reply] 
+181119-15:15:44 [INFO] -- Receive elevator reply from Thread_Elevator_Panel5
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel10: receiving timesup at 00:00:35
+181119-15:15:45 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel9: receiving timesup at 00:00:35
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_kiosk_Panel10]: message received: [Svc_Req] 
+181119-15:15:45 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:45 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel10
+181119-15:15:45 [INFO] -- Send job request to Thread_Elevator_Panel2
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel10: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel2: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_kiosk_Panel9]: message received: [Svc_Req] 
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel2: send request Elev_Reply to Thread_Server
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel10 Update kiosk panel information
+181119-15:15:45 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel9
+181119-15:15:45 [INFO] -- Send job request to Thread_Elevator_Panel4
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel9: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Reply] 
+181119-15:15:45 [INFO] -- Receive elevator reply from Thread_Elevator_Panel2
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel9 Update kiosk panel information
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel4: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel4: send request Elev_Reply to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Reply] 
+181119-15:15:45 [INFO] -- Receive elevator reply from Thread_Elevator_Panel4
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel6: receiving timesup at 00:00:35
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel5: receiving timesup at 00:00:35
+181119-15:15:45 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel3: receiving timesup at 00:00:35
+181119-15:15:45 [INFO] -- Thread_Central_Control_Panel: receiving timesup at 00:00:35
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel4: receiving timesup at 00:00:35
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel1: receiving timesup at 00:00:35
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel3: send request Elev_Arr to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Central_Control_Panel: send request Admin_Req to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel1: receiving timesup at 00:00:35
+181119-15:15:45 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_kiosk_Panel6]: message received: [Svc_Req] 
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel2: receiving timesup at 00:00:35
+181119-15:15:45 [INFO] -- Thread_Central_Control_Panel: send request Admin_Alert to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel4: send request Elev_Arr to Thread_Server
+181119-15:15:45 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel3: receiving timesup at 00:00:35
+181119-15:15:45 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel7: receiving timesup at 00:00:35
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel8: receiving timesup at 00:00:35
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel2: receiving timesup at 00:00:35
+181119-15:15:45 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:45 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:45 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel4: send request Elev_Dep to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel2: send request Elev_Arr to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel2: send request Elev_Dep to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel3: send request Elev_Dep to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel1: send request Elev_Arr to Thread_Server
+181119-15:15:45 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel6
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel4: receiving timesup at 00:00:35
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel5: receiving timesup at 00:00:35
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel6: receiving timesup at 00:00:35
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel5: send request Elev_Arr to Thread_Server
+181119-15:15:45 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel6: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:45 [INFO] -- Send job request to Thread_Elevator_Panel1
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Arr] 
+181119-15:15:45 [INFO] -- Receive elevator update from Thread_Elevator_Panel3
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel1: send request Elev_Dep to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Req] 
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel6 Update kiosk panel information
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel5: send request Elev_Dep to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel6: send request Elev_Arr to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Central_Control_Panel: [Thread_Server]: message received: [Thread_Server (Admin_Reply) -- null] 
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Req] 
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel1: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel1: send request Elev_Reply to Thread_Server
+181119-15:15:45 [INFO] -- Receive admin panel alert from Thread_Central_Control_Panel
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_kiosk_Panel5]: message received: [Svc_Req] 
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel6: send request Elev_Dep to Thread_Server
+181119-15:15:45 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel5
+181119-15:15:45 [INFO] -- Send job request to Thread_Elevator_Panel5
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel5: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel5: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Alert] 
+181119-15:15:45 [INFO] -- Receive admin panel alert from Thread_Central_Control_Panel
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Arr] 
+181119-15:15:45 [INFO] -- Receive elevator update from Thread_Elevator_Panel4
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel5 Update kiosk panel information
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_kiosk_Panel1]: message received: [Svc_Req] 
+181119-15:15:45 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel1
+181119-15:15:45 [INFO] -- Send job request to Thread_Elevator_Panel3
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel5: send request Elev_Reply to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel3: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel1: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel3: send request Elev_Reply to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_kiosk_Panel3]: message received: [Svc_Req] 
+181119-15:15:45 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel3
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel1 Update kiosk panel information
+181119-15:15:45 [INFO] -- Send job request to Thread_Elevator_Panel4
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_kiosk_Panel2]: message received: [Svc_Req] 
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel4: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel3: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel3 Update kiosk panel information
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel4: send request Elev_Reply to Thread_Server
+181119-15:15:45 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel2
+181119-15:15:45 [INFO] -- Send job request to Thread_Elevator_Panel3
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel2: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_kiosk_Panel8]: message received: [Svc_Req] 
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel2 Update kiosk panel information
+181119-15:15:45 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel8
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel3: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:45 [INFO] -- Send job request to Thread_Elevator_Panel4
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel3: send request Elev_Reply to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel4: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel8: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_kiosk_Panel7]: message received: [Svc_Req] 
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel8 Update kiosk panel information
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel4: send request Elev_Reply to Thread_Server
+181119-15:15:45 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel7
+181119-15:15:45 [INFO] -- Send job request to Thread_Elevator_Panel1
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel7: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Dep] 
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel1: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel1: send request Elev_Reply to Thread_Server
+181119-15:15:45 [INFO] -- Receive elevator update from Thread_Elevator_Panel4
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel7 Update kiosk panel information
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Arr] 
+181119-15:15:45 [INFO] -- Receive elevator update from Thread_Elevator_Panel2
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Dep] 
+181119-15:15:45 [INFO] -- Receive elevator update from Thread_Elevator_Panel2
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Dep] 
+181119-15:15:45 [INFO] -- Receive elevator update from Thread_Elevator_Panel3
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Arr] 
+181119-15:15:45 [INFO] -- Receive elevator update from Thread_Elevator_Panel1
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Arr] 
+181119-15:15:45 [INFO] -- Receive elevator update from Thread_Elevator_Panel5
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_kiosk_Panel4]: message received: [Svc_Req] 
+181119-15:15:45 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel4
+181119-15:15:45 [INFO] -- Send job request to Thread_Elevator_Panel1
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel4: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel1: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Dep] 
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel1: send request Elev_Reply to Thread_Server
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel4 Update kiosk panel information
+181119-15:15:45 [INFO] -- Receive elevator update from Thread_Elevator_Panel1
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Dep] 
+181119-15:15:45 [INFO] -- Receive elevator update from Thread_Elevator_Panel5
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel6]: message received: [Elev_Arr] 
+181119-15:15:45 [INFO] -- Receive elevator update from Thread_Elevator_Panel6
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Reply] 
+181119-15:15:45 [INFO] -- Receive elevator reply from Thread_Elevator_Panel1
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel6]: message received: [Elev_Dep] 
+181119-15:15:45 [INFO] -- Receive elevator update from Thread_Elevator_Panel6
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Reply] 
+181119-15:15:45 [INFO] -- Receive elevator reply from Thread_Elevator_Panel5
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Reply] 
+181119-15:15:45 [INFO] -- Receive elevator reply from Thread_Elevator_Panel3
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Reply] 
+181119-15:15:45 [INFO] -- Receive elevator reply from Thread_Elevator_Panel4
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Reply] 
+181119-15:15:45 [INFO] -- Receive elevator reply from Thread_Elevator_Panel3
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Reply] 
+181119-15:15:45 [INFO] -- Receive elevator reply from Thread_Elevator_Panel4
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Reply] 
+181119-15:15:45 [INFO] -- Receive elevator reply from Thread_Elevator_Panel1
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Reply] 
+181119-15:15:45 [INFO] -- Receive elevator reply from Thread_Elevator_Panel1
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel9: receiving timesup at 00:00:40
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel10: receiving timesup at 00:00:40
+181119-15:15:45 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:45 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_kiosk_Panel10]: message received: [Svc_Req] 
+181119-15:15:45 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel10
+181119-15:15:45 [INFO] -- Send job request to Thread_Elevator_Panel5
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel10: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel10 Update kiosk panel information
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel5: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_kiosk_Panel9]: message received: [Svc_Req] 
+181119-15:15:45 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel9
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel5: send request Elev_Reply to Thread_Server
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel9: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:45 [INFO] -- Send job request to Thread_Elevator_Panel3
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel9 Update kiosk panel information
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Reply] 
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel3: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:45 [INFO] -- Receive elevator reply from Thread_Elevator_Panel5
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel3: send request Elev_Reply to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Reply] 
+181119-15:15:45 [INFO] -- Receive elevator reply from Thread_Elevator_Panel3
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel3: receiving timesup at 00:00:40
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel4: receiving timesup at 00:00:40
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel6: receiving timesup at 00:00:40
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel6: receiving timesup at 00:00:40
+181119-15:15:45 [INFO] -- Thread_Central_Control_Panel: receiving timesup at 00:00:40
+181119-15:15:45 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel2: receiving timesup at 00:00:40
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel4: send request Elev_Arr to Thread_Server
+181119-15:15:45 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel1: receiving timesup at 00:00:40
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel2: receiving timesup at 00:00:40
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel1: receiving timesup at 00:00:40
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel4: receiving timesup at 00:00:40
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel2: send request Elev_Arr to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel1: send request Elev_Arr to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel1: send request Elev_Dep to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel4: send request Elev_Dep to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel5: receiving timesup at 00:00:40
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_kiosk_Panel6]: message received: [Svc_Req] 
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel8: receiving timesup at 00:00:40
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel5: receiving timesup at 00:00:40
+181119-15:15:45 [INFO] -- Thread_Central_Control_Panel: send request Admin_Req to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel6: send request Elev_Arr to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Central_Control_Panel: send request Admin_Alert to Thread_Server
+181119-15:15:45 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:45 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:45 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel6
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel5: send request Elev_Arr to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel2: send request Elev_Dep to Thread_Server
+181119-15:15:45 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:45 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:45 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel3: receiving timesup at 00:00:40
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel7: receiving timesup at 00:00:40
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel3: send request Elev_Arr to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel5: send request Elev_Dep to Thread_Server
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel6: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel6 Update kiosk panel information
+181119-15:15:45 [INFO] -- Send job request to Thread_Elevator_Panel3
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel6: send request Elev_Dep to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Arr] 
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel3: send request Elev_Dep to Thread_Server
+181119-15:15:45 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel3: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:45 [INFO] -- Receive elevator update from Thread_Elevator_Panel4
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_kiosk_Panel3]: message received: [Svc_Req] 
+181119-15:15:45 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel3
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel3: send request Elev_Reply to Thread_Server
+181119-15:15:45 [INFO] -- Send job request to Thread_Elevator_Panel3
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Arr] 
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel3: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel3 Update kiosk panel information
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel3: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:45 [INFO] -- Receive elevator update from Thread_Elevator_Panel2
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel3: send request Elev_Reply to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Arr] 
+181119-15:15:45 [INFO] -- Receive elevator update from Thread_Elevator_Panel1
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Dep] 
+181119-15:15:45 [INFO] -- Receive elevator update from Thread_Elevator_Panel1
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Dep] 
+181119-15:15:45 [INFO] -- Receive elevator update from Thread_Elevator_Panel4
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Req] 
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Req] 
+181119-15:15:45 [INFO] -- Thread_Central_Control_Panel: [Thread_Server]: message received: [Thread_Server (Admin_Reply) -- null] 
+181119-15:15:45 [INFO] -- Receive admin panel alert from Thread_Central_Control_Panel
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel6]: message received: [Elev_Arr] 
+181119-15:15:45 [INFO] -- Receive elevator update from Thread_Elevator_Panel6
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Alert] 
+181119-15:15:45 [INFO] -- Receive admin panel alert from Thread_Central_Control_Panel
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_kiosk_Panel5]: message received: [Svc_Req] 
+181119-15:15:45 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel5
+181119-15:15:45 [INFO] -- Send job request to Thread_Elevator_Panel4
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_kiosk_Panel8]: message received: [Svc_Req] 
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel4: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel5: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel4: send request Elev_Reply to Thread_Server
+181119-15:15:45 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel8
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel5 Update kiosk panel information
+181119-15:15:45 [INFO] -- Send job request to Thread_Elevator_Panel1
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel8: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Arr] 
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel8 Update kiosk panel information
+181119-15:15:45 [INFO] -- Receive elevator update from Thread_Elevator_Panel5
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel1: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Dep] 
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel1: send request Elev_Reply to Thread_Server
+181119-15:15:45 [INFO] -- Receive elevator update from Thread_Elevator_Panel2
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_kiosk_Panel2]: message received: [Svc_Req] 
+181119-15:15:45 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel2
+181119-15:15:45 [INFO] -- Send job request to Thread_Elevator_Panel5
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel2: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_kiosk_Panel4]: message received: [Svc_Req] 
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel2 Update kiosk panel information
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel5: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:45 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel4
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel5: send request Elev_Reply to Thread_Server
+181119-15:15:45 [INFO] -- Send job request to Thread_Elevator_Panel4
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel4: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel4: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_kiosk_Panel1]: message received: [Svc_Req] 
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel4: send request Elev_Reply to Thread_Server
+181119-15:15:45 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel1
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel4 Update kiosk panel information
+181119-15:15:45 [INFO] -- Send job request to Thread_Elevator_Panel3
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel1: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Arr] 
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel1 Update kiosk panel information
+181119-15:15:45 [INFO] -- Receive elevator update from Thread_Elevator_Panel3
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Dep] 
+181119-15:15:45 [INFO] -- Receive elevator update from Thread_Elevator_Panel5
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel3: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel6]: message received: [Elev_Dep] 
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel3: send request Elev_Reply to Thread_Server
+181119-15:15:45 [INFO] -- Receive elevator update from Thread_Elevator_Panel6
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Dep] 
+181119-15:15:45 [INFO] -- Receive elevator update from Thread_Elevator_Panel3
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_kiosk_Panel7]: message received: [Svc_Req] 
+181119-15:15:45 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel7
+181119-15:15:45 [INFO] -- Send job request to Thread_Elevator_Panel5
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel7: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Reply] 
+181119-15:15:45 [INFO] -- Thread_kiosk_Panel7 Update kiosk panel information
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel5: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:45 [INFO] -- Receive elevator reply from Thread_Elevator_Panel3
+181119-15:15:45 [INFO] -- Thread_Elevator_Panel5: send request Elev_Reply to Thread_Server
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Reply] 
+181119-15:15:45 [INFO] -- Receive elevator reply from Thread_Elevator_Panel3
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Reply] 
+181119-15:15:45 [INFO] -- Receive elevator reply from Thread_Elevator_Panel4
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Reply] 
+181119-15:15:45 [INFO] -- Receive elevator reply from Thread_Elevator_Panel1
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Reply] 
+181119-15:15:45 [INFO] -- Receive elevator reply from Thread_Elevator_Panel5
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Reply] 
+181119-15:15:45 [INFO] -- Receive elevator reply from Thread_Elevator_Panel4
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Reply] 
+181119-15:15:45 [INFO] -- Receive elevator reply from Thread_Elevator_Panel3
+181119-15:15:45 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Reply] 
+181119-15:15:45 [INFO] -- Receive elevator reply from Thread_Elevator_Panel5
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel10: receiving timesup at 00:00:45
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel9: receiving timesup at 00:00:45
+181119-15:15:46 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:46 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_kiosk_Panel10]: message received: [Svc_Req] 
+181119-15:15:46 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel10
+181119-15:15:46 [INFO] -- Send job request to Thread_Elevator_Panel5
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel10: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_kiosk_Panel9]: message received: [Svc_Req] 
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel5: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel10 Update kiosk panel information
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel5: send request Elev_Reply to Thread_Server
+181119-15:15:46 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel9
+181119-15:15:46 [INFO] -- Send job request to Thread_Elevator_Panel2
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel9: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Reply] 
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel2: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:46 [INFO] -- Receive elevator reply from Thread_Elevator_Panel5
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel9 Update kiosk panel information
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel2: send request Elev_Reply to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Reply] 
+181119-15:15:46 [INFO] -- Receive elevator reply from Thread_Elevator_Panel2
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel1: receiving timesup at 00:00:45
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel6: receiving timesup at 00:00:45
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel8: receiving timesup at 00:00:45
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel4: receiving timesup at 00:00:45
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel5: receiving timesup at 00:00:45
+181119-15:15:46 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Central_Control_Panel: receiving timesup at 00:00:45
+181119-15:15:46 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel4: send request Elev_Arr to Thread_Server
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel3: receiving timesup at 00:00:45
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel4: send request Elev_Dep to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_kiosk_Panel8]: message received: [Svc_Req] 
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel1: send request Elev_Arr to Thread_Server
+181119-15:15:46 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel8
+181119-15:15:46 [INFO] -- Thread_Central_Control_Panel: send request Admin_Req to Thread_Server
+181119-15:15:46 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:46 [INFO] -- Send job request to Thread_Elevator_Panel5
+181119-15:15:46 [INFO] -- Thread_Central_Control_Panel: send request Admin_Alert to Thread_Server
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel8: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel1: send request Elev_Dep to Thread_Server
+181119-15:15:46 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel8 Update kiosk panel information
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_kiosk_Panel5]: message received: [Svc_Req] 
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel5: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:46 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel5
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel5: send request Elev_Reply to Thread_Server
+181119-15:15:46 [INFO] -- Send job request to Thread_Elevator_Panel1
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel5: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel1: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Arr] 
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel1: send request Elev_Reply to Thread_Server
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel5 Update kiosk panel information
+181119-15:15:46 [INFO] -- Receive elevator update from Thread_Elevator_Panel4
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Dep] 
+181119-15:15:46 [INFO] -- Receive elevator update from Thread_Elevator_Panel4
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Arr] 
+181119-15:15:46 [INFO] -- Receive elevator update from Thread_Elevator_Panel1
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Req] 
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Req] 
+181119-15:15:46 [INFO] -- Receive admin panel alert from Thread_Central_Control_Panel
+181119-15:15:46 [INFO] -- Thread_Central_Control_Panel: [Thread_Server]: message received: [Thread_Server (Admin_Reply) -- null] 
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_kiosk_Panel6]: message received: [Svc_Req] 
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel2: receiving timesup at 00:00:45
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel7: receiving timesup at 00:00:45
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel1: receiving timesup at 00:00:45
+181119-15:15:46 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel2: receiving timesup at 00:00:45
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel5: receiving timesup at 00:00:45
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel6: receiving timesup at 00:00:45
+181119-15:15:46 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel6
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel3: receiving timesup at 00:00:45
+181119-15:15:46 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel3: send request Elev_Arr to Thread_Server
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel6: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:46 [INFO] -- Send job request to Thread_Elevator_Panel3
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel6: send request Elev_Arr to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Alert] 
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel5: send request Elev_Arr to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel2: send request Elev_Arr to Thread_Server
+181119-15:15:46 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel4: receiving timesup at 00:00:45
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel2: send request Elev_Dep to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel5: send request Elev_Dep to Thread_Server
+181119-15:15:46 [INFO] -- Receive admin panel alert from Thread_Central_Control_Panel
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel6: send request Elev_Dep to Thread_Server
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel6 Update kiosk panel information
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel3: send request Elev_Dep to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Dep] 
+181119-15:15:46 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:46 [INFO] -- Receive elevator update from Thread_Elevator_Panel1
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel3: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_kiosk_Panel3]: message received: [Svc_Req] 
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel3: send request Elev_Reply to Thread_Server
+181119-15:15:46 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel3
+181119-15:15:46 [INFO] -- Send job request to Thread_Elevator_Panel1
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel3: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel1: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Reply] 
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel1: send request Elev_Reply to Thread_Server
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel3 Update kiosk panel information
+181119-15:15:46 [INFO] -- Receive elevator reply from Thread_Elevator_Panel5
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Reply] 
+181119-15:15:46 [INFO] -- Receive elevator reply from Thread_Elevator_Panel1
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_kiosk_Panel2]: message received: [Svc_Req] 
+181119-15:15:46 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel2
+181119-15:15:46 [INFO] -- Send job request to Thread_Elevator_Panel5
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel2: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_kiosk_Panel7]: message received: [Svc_Req] 
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel5: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:46 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel7
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel2 Update kiosk panel information
+181119-15:15:46 [INFO] -- Send job request to Thread_Elevator_Panel2
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel7: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel5: send request Elev_Reply to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Arr] 
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel7 Update kiosk panel information
+181119-15:15:46 [INFO] -- Receive elevator update from Thread_Elevator_Panel3
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel2: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel6]: message received: [Elev_Arr] 
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel2: send request Elev_Reply to Thread_Server
+181119-15:15:46 [INFO] -- Receive elevator update from Thread_Elevator_Panel6
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Arr] 
+181119-15:15:46 [INFO] -- Receive elevator update from Thread_Elevator_Panel5
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Arr] 
+181119-15:15:46 [INFO] -- Receive elevator update from Thread_Elevator_Panel2
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_kiosk_Panel1]: message received: [Svc_Req] 
+181119-15:15:46 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel1
+181119-15:15:46 [INFO] -- Send job request to Thread_Elevator_Panel5
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel1: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Dep] 
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel5: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel1 Update kiosk panel information
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel5: send request Elev_Reply to Thread_Server
+181119-15:15:46 [INFO] -- Receive elevator update from Thread_Elevator_Panel2
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Dep] 
+181119-15:15:46 [INFO] -- Receive elevator update from Thread_Elevator_Panel5
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel6]: message received: [Elev_Dep] 
+181119-15:15:46 [INFO] -- Receive elevator update from Thread_Elevator_Panel6
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Dep] 
+181119-15:15:46 [INFO] -- Receive elevator update from Thread_Elevator_Panel3
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_kiosk_Panel4]: message received: [Svc_Req] 
+181119-15:15:46 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel4
+181119-15:15:46 [INFO] -- Send job request to Thread_Elevator_Panel3
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel4: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Reply] 
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel3: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel4 Update kiosk panel information
+181119-15:15:46 [INFO] -- Receive elevator reply from Thread_Elevator_Panel3
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel3: send request Elev_Reply to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Reply] 
+181119-15:15:46 [INFO] -- Receive elevator reply from Thread_Elevator_Panel1
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Reply] 
+181119-15:15:46 [INFO] -- Receive elevator reply from Thread_Elevator_Panel5
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Reply] 
+181119-15:15:46 [INFO] -- Receive elevator reply from Thread_Elevator_Panel2
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Reply] 
+181119-15:15:46 [INFO] -- Receive elevator reply from Thread_Elevator_Panel5
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Reply] 
+181119-15:15:46 [INFO] -- Receive elevator reply from Thread_Elevator_Panel3
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel10: receiving timesup at 00:00:50
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel9: receiving timesup at 00:00:50
+181119-15:15:46 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:46 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_kiosk_Panel10]: message received: [Svc_Req] 
+181119-15:15:46 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel10
+181119-15:15:46 [INFO] -- Send job request to Thread_Elevator_Panel2
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel10: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_kiosk_Panel9]: message received: [Svc_Req] 
+181119-15:15:46 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel9
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel2: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel9: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:46 [INFO] -- Send job request to Thread_Elevator_Panel3
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel10 Update kiosk panel information
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel3: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel9 Update kiosk panel information
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel2: send request Elev_Reply to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel3: send request Elev_Reply to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Reply] 
+181119-15:15:46 [INFO] -- Receive elevator reply from Thread_Elevator_Panel2
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Reply] 
+181119-15:15:46 [INFO] -- Receive elevator reply from Thread_Elevator_Panel3
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel5: receiving timesup at 00:00:50
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel6: receiving timesup at 00:00:50
+181119-15:15:46 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel8: receiving timesup at 00:00:50
+181119-15:15:46 [INFO] -- Thread_Central_Control_Panel: receiving timesup at 00:00:50
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_kiosk_Panel5]: message received: [Svc_Req] 
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel3: receiving timesup at 00:00:50
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel4: receiving timesup at 00:00:50
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel1: receiving timesup at 00:00:50
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel4: send request Elev_Arr to Thread_Server
+181119-15:15:46 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel4: send request Elev_Dep to Thread_Server
+181119-15:15:46 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel5
+181119-15:15:46 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Central_Control_Panel: send request Admin_Req to Thread_Server
+181119-15:15:46 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Central_Control_Panel: send request Admin_Alert to Thread_Server
+181119-15:15:46 [INFO] -- Send job request to Thread_Elevator_Panel2
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel5: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Arr] 
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel1: send request Elev_Arr to Thread_Server
+181119-15:15:46 [INFO] -- Receive elevator update from Thread_Elevator_Panel4
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel5 Update kiosk panel information
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel2: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_kiosk_Panel3]: message received: [Svc_Req] 
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel1: send request Elev_Dep to Thread_Server
+181119-15:15:46 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel3
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel2: send request Elev_Reply to Thread_Server
+181119-15:15:46 [INFO] -- Send job request to Thread_Elevator_Panel4
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel3: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Dep] 
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel3 Update kiosk panel information
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel4: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:46 [INFO] -- Receive elevator update from Thread_Elevator_Panel4
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel4: send request Elev_Reply to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_kiosk_Panel6]: message received: [Svc_Req] 
+181119-15:15:46 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel6
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel6: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:46 [INFO] -- Send job request to Thread_Elevator_Panel5
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel6 Update kiosk panel information
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Req] 
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel5: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:46 [INFO] -- Thread_Central_Control_Panel: [Thread_Server]: message received: [Thread_Server (Admin_Reply) -- null] 
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Req] 
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel5: send request Elev_Reply to Thread_Server
+181119-15:15:46 [INFO] -- Receive admin panel alert from Thread_Central_Control_Panel
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_kiosk_Panel8]: message received: [Svc_Req] 
+181119-15:15:46 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel8
+181119-15:15:46 [INFO] -- Send job request to Thread_Elevator_Panel2
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel8: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Central_Control_Panel]: message received: [Admin_Alert] 
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel8 Update kiosk panel information
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel2: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:46 [INFO] -- Receive admin panel alert from Thread_Central_Control_Panel
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel2: send request Elev_Reply to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Arr] 
+181119-15:15:46 [INFO] -- Receive elevator update from Thread_Elevator_Panel1
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Dep] 
+181119-15:15:46 [INFO] -- Receive elevator update from Thread_Elevator_Panel1
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Reply] 
+181119-15:15:46 [INFO] -- Receive elevator reply from Thread_Elevator_Panel2
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Reply] 
+181119-15:15:46 [INFO] -- Receive elevator reply from Thread_Elevator_Panel4
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Reply] 
+181119-15:15:46 [INFO] -- Receive elevator reply from Thread_Elevator_Panel5
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Reply] 
+181119-15:15:46 [INFO] -- Receive elevator reply from Thread_Elevator_Panel2
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel2: receiving timesup at 00:00:51
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel1: receiving timesup at 00:00:51
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel7: receiving timesup at 00:00:51
+181119-15:15:46 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:46 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:46 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_kiosk_Panel2]: message received: [Svc_Req] 
+181119-15:15:46 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel2
+181119-15:15:46 [INFO] -- Send job request to Thread_Elevator_Panel2
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel2: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_kiosk_Panel7]: message received: [Svc_Req] 
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel2: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel2 Update kiosk panel information
+181119-15:15:46 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel7
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel2: send request Elev_Reply to Thread_Server
+181119-15:15:46 [INFO] -- Send job request to Thread_Elevator_Panel3
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel7: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_kiosk_Panel1]: message received: [Svc_Req] 
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel7 Update kiosk panel information
+181119-15:15:46 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel1
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel3: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel1: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:46 [INFO] -- Send job request to Thread_Elevator_Panel4
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel1 Update kiosk panel information
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel3: send request Elev_Reply to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Reply] 
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel4: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:46 [INFO] -- Receive elevator reply from Thread_Elevator_Panel2
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel4: send request Elev_Reply to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Reply] 
+181119-15:15:46 [INFO] -- Receive elevator reply from Thread_Elevator_Panel3
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel4]: message received: [Elev_Reply] 
+181119-15:15:46 [INFO] -- Receive elevator reply from Thread_Elevator_Panel4
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel5: receiving timesup at 00:00:51
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel6: receiving timesup at 00:00:51
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel4: receiving timesup at 00:00:51
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel6: send request Elev_Arr to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel5: send request Elev_Arr to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel2: receiving timesup at 00:00:51
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel3: receiving timesup at 00:00:51
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel2: send request Elev_Arr to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel3: send request Elev_Arr to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel2: send request Elev_Dep to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel5: send request Elev_Dep to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel6]: message received: [Elev_Arr] 
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel6: send request Elev_Dep to Thread_Server
+181119-15:15:46 [INFO] -- Send kiosk panel request to Thread_Server
+181119-15:15:46 [INFO] -- Receive elevator update from Thread_Elevator_Panel6
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel3: send request Elev_Dep to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Arr] 
+181119-15:15:46 [INFO] -- Receive elevator update from Thread_Elevator_Panel5
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Arr] 
+181119-15:15:46 [INFO] -- Receive elevator update from Thread_Elevator_Panel2
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Arr] 
+181119-15:15:46 [INFO] -- Receive elevator update from Thread_Elevator_Panel3
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel2]: message received: [Elev_Dep] 
+181119-15:15:46 [INFO] -- Receive elevator update from Thread_Elevator_Panel2
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel5]: message received: [Elev_Dep] 
+181119-15:15:46 [INFO] -- Receive elevator update from Thread_Elevator_Panel5
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel6]: message received: [Elev_Dep] 
+181119-15:15:46 [INFO] -- Receive elevator update from Thread_Elevator_Panel6
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_kiosk_Panel4]: message received: [Svc_Req] 
+181119-15:15:46 [INFO] -- Receive kiosk panel request from Thread_kiosk_Panel4
+181119-15:15:46 [INFO] -- Send job request to Thread_Elevator_Panel1
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel3]: message received: [Elev_Dep] 
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel4: [Thread_Server]: message received: [Thread_Server (Svc_Reply) -- null] 
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel1: [Thread_Server]: message received: [Thread_Server (Elev_Job) -- null] 
+181119-15:15:46 [INFO] -- Thread_kiosk_Panel4 Update kiosk panel information
+181119-15:15:46 [INFO] -- Receive elevator update from Thread_Elevator_Panel3
+181119-15:15:46 [INFO] -- Thread_Elevator_Panel1: send request Elev_Reply to Thread_Server
+181119-15:15:46 [INFO] -- Thread_Server: [Thread_Elevator_Panel1]: message received: [Elev_Reply] 
+181119-15:15:46 [INFO] -- Receive elevator reply from Thread_Elevator_Panel1
