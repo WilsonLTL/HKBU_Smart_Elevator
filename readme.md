@@ -197,12 +197,12 @@ Json format of Admin_Reply <br >
 ```
 {
    "result":[{
-        "PID":1,
+        "LNO":1,
         "Current_Floor":1,
         "Next_Floot":1,
         "Status":1
    },{
-        "PID":2,
+        "LNO":2,
         "Current_Floor":1,
         "Next_Floot":1,
         "Status":1

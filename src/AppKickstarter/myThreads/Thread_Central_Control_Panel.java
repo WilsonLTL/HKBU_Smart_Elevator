@@ -44,11 +44,11 @@ public class Thread_Central_Control_Panel extends AppThread {
                     // check any start or stop order??
                     // if yes
                     JSONObject req = new JSONObject();
-                    req.put("PID",12312);   // the id of the stop/start elev
-                    req.put("Sataus",12);   // the following status of the elev PS: 11=start, 12=ready to stop
+                    req.put("LNO",12312);   // the id of the stop/start elev
+                    req.put("Status",12);   // the following status of the elev PS: 11=start, 12=ready to stop
 
                     //send the message to server
-                    log.info(id + ": send request Admin_Alert to Thread_Server");
+                    log.info(id + ": send request Admin_Alert to Thread_Server :"+ req.toString());
                     AppThread thdS2 = appKickstarter.getThread("Thread_Server");
                     MBox thdServerMBox2 = thdS2.getMBox();
                     thdServerMBox2.send(new Msg(id, mbox, Msg.Type.Admin_Alert, req,null));
@@ -62,11 +62,11 @@ public class Thread_Central_Control_Panel extends AppThread {
                     // sturture:
 //                     {
 //                    	"result":[{
-//                    		"PID":1,
+//                    		"LNO":1,
 //                    		"Current_Floor":1,
 //                    		"Next_Floot":1,
 //                    		"Status":1
-//                    	},{"PID":2,
+//                    	},{"LNO":2,
 //                    		"Current_Floor":1,
 //                    		"Next_Floot":1,
 //                    		"Status":1} ....

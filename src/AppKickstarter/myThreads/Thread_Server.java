@@ -103,10 +103,11 @@ public class Thread_Server extends AppThread {
                     AppThread thdEAR = appKickstarter.getThread(msg.getSender()); // 1,2,3,4,5 thread
                     MBox thdEARMBox = thdEAR.getMBox();
                     thdEARMBox.send(new Msg(id, mbox, Msg.Type.Admin_Reply, null,null));
+                    break;
 
                 case Admin_Alert:
-                    log.info(id + ": [" + msg.getSender() + "]: message received: [" + msg.getType() + "] ");
                     res = msg.getDetails();
+                    log.info(id + ": [" + msg.getSender() + "]: message received: [" + msg.getType() + "] :"+res.toString());
                     LNO = Integer.parseInt(res.get("LNO").toString());
                     Status = Integer.parseInt(res.get("Status").toString());
                     log.info("Receive admin panel alert from "+msg.getSender());
