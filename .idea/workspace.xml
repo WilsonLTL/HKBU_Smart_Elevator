@@ -15,8 +15,8 @@
       <file leaf-file-name="Thread_Central_Control_Panel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Central_Control_Panel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="73" column="23" lean-forward="true" selection-start-line="62" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+            <state relative-caret-position="104">
+              <caret line="57" column="32" lean-forward="false" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -25,10 +25,10 @@
         </entry>
       </file>
       <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/etc/readme.md">
+        <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+            <state relative-caret-position="318">
+              <caret line="23" column="77" lean-forward="false" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -95,10 +95,11 @@
         <option value="$PROJECT_DIR$/src/AppKickstarter/myThreads/ThreadA.java" />
         <option value="$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Elevator_Panel.java" />
         <option value="$PROJECT_DIR$/src/GUI/Kiosk_panel.java" />
-        <option value="$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_kiosk_panel.java" />
         <option value="$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Server.java" />
         <option value="$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Central_Control_Panel.java" />
         <option value="$PROJECT_DIR$/etc/readme.md" />
+        <option value="$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_kiosk_panel.java" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -130,6 +131,11 @@
             <path>
               <item name="comp4007" type="b2602c69:ProjectViewProjectNode" />
               <item name="comp4007" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="comp4007" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comp4007" type="462c0819:PsiDirectoryNode" />
+              <item name="etc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="comp4007" type="b2602c69:ProjectViewProjectNode" />
@@ -179,16 +185,16 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/wilsonlo/Desktop/comp4007/src/AppKickstarter/myThreads/Thread_Central_Control_Panel.java" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/GUI" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/etc" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/" />
+      <recent name="$PROJECT_DIR$/src/GUI" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -296,6 +302,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="814" y="23" width="866" height="979" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -307,7 +314,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26131222" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2658371" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2658371" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2669903" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -361,18 +368,18 @@
         <state relative-caret-position="915">
           <caret line="61" column="31" lean-forward="true" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
           <folding>
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
-            <element signature="e#1053#1054#0" expanded="true" />
-            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="false" />
+            <element signature="e#766#767#0" expanded="false" />
+            <element signature="e#796#797#0" expanded="false" />
+            <element signature="e#825#826#0" expanded="false" />
+            <element signature="e#866#867#0" expanded="false" />
+            <element signature="e#902#903#0" expanded="false" />
+            <element signature="e#932#933#0" expanded="false" />
+            <element signature="e#961#962#0" expanded="false" />
+            <element signature="e#996#997#0" expanded="false" />
+            <element signature="e#1026#1027#0" expanded="false" />
+            <element signature="e#1053#1054#0" expanded="false" />
+            <element signature="e#1079#1080#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -612,18 +619,18 @@
         <state relative-caret-position="552">
           <caret line="74" column="11" lean-forward="false" selection-start-line="63" selection-start-column="10" selection-end-line="74" selection-end-column="11" />
           <folding>
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
-            <element signature="e#1026#1027#0" expanded="true" />
-            <element signature="e#1053#1054#0" expanded="true" />
-            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="false" />
+            <element signature="e#766#767#0" expanded="false" />
+            <element signature="e#796#797#0" expanded="false" />
+            <element signature="e#825#826#0" expanded="false" />
+            <element signature="e#866#867#0" expanded="false" />
+            <element signature="e#902#903#0" expanded="false" />
+            <element signature="e#932#933#0" expanded="false" />
+            <element signature="e#961#962#0" expanded="false" />
+            <element signature="e#996#997#0" expanded="false" />
+            <element signature="e#1026#1027#0" expanded="false" />
+            <element signature="e#1053#1054#0" expanded="false" />
+            <element signature="e#1079#1080#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -655,8 +662,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_kiosk_panel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="31" lean-forward="true" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
+        <state relative-caret-position="107">
+          <caret line="49" column="30" lean-forward="false" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -665,8 +672,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Elevator_Panel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="61" column="43" lean-forward="true" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
+        <state relative-caret-position="353">
+          <caret line="59" column="41" lean-forward="false" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -675,18 +682,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Central_Control_Panel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="73" column="23" lean-forward="true" selection-start-line="62" selection-start-column="23" selection-end-line="73" selection-end-column="23" />
+        <state relative-caret-position="104">
+          <caret line="57" column="32" lean-forward="false" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/etc/readme.md">
+    <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        <state relative-caret-position="318">
+          <caret line="23" column="77" lean-forward="false" selection-start-line="23" selection-start-column="77" selection-end-line="23" selection-end-column="77" />
           <folding />
         </state>
       </provider>

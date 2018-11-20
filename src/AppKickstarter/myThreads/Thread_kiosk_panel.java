@@ -25,7 +25,7 @@ public class Thread_kiosk_panel extends AppThread {
                     log.info(id + ": receiving timesup at " + appKickstarter.getSimulationTimeStr());
 
                     // check is there are any new request send to server
-                    //if yes
+                    if(true){
                         JSONObject req = new JSONObject();
                         req.put("PID","Passenger-XXXX"); //the id of the kiosk panel, xxxx is a 4 digit number
                         req.put("srcFNO",102319203); // current floor
@@ -38,7 +38,14 @@ public class Thread_kiosk_panel extends AppThread {
                         thdServerMBox.send(new Msg(id, mbox, Msg.Type.Svc_Req, req,null));
                         Timer.setSimulationTimer(id, mbox, sleepTime);
                         break;
-                    // if no then wait
+                    }else{
+                        // if no then wait
+                        Timer.setSimulationTimer(id, mbox, sleepTime);
+                        break;
+                    }
+
+
+
 
                 case Svc_Reply:
                     // reply msg from server

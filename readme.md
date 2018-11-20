@@ -2,6 +2,27 @@
 The smart Elevator system develop base on appkickstarter
 Including 4 threading class - Thread_Server, Thread_kiosk_panel, Thread_Elevator_Panel, Thread_Central_Control_Panel
 
+## The things that you guys need to do:
+
+### Kiosk part
+1. Make sure the panel connect to the main class
+2. In Thread_kiosk_panel, finish the if else in line 28
+3. Finish the Svc_Reply part that when info receive, update the panel.
+
+### Elevator part:
+1. Make sure the panel connect to the main class
+2. In Thread_Elevator_Panel, finish the if else in line 39 and 45, wo check which type of message should be send
+3. In Thread_Elevatoe_Panel, finish the process in line 60, which will receive a job send by server, and reply the information your all things need in line 63 to 66
+4. Do the function that to update the panel of elevator as u like! (since i believe that you already have your own idea to design it)
+
+### Admin part:
+1. Make sure the panel connect to the main class
+2. In Thread_Central_Control_Panel, TimesUp case, you should check the stop/start btn click or not, and send me back the Admin_Alert, just modify as you like, remember to take a look of elevator status in the readme.md
+3. In Thread_Central_Control_Panel, Admin_Reply, these the message that server send all info of all elevator, just update this info in to the admin panel, modify it as u like
+
+### All
+1. please test it to make sure the program is runnable after modify the code.
+
 ## Thread_Server
 ### Svc_Req
 Receive from Thread_kiosk_panel, when user press the panel, the thread will send the request to server for assign a elevator for the user
