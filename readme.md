@@ -11,7 +11,7 @@ Including 4 threading class - Thread_Server, Thread_kiosk_panel, Thread_Elevator
 
 ### Elevator part:
 1. Make sure the panel connect to the main class
-2. In Thread_Elevator_Panel, finish the if else in line 39 and 45, wo check which type of message should be send
+2. In Thread_Elevator_Panel, finish the if else in line 39 and 45, who check which type of message should be send
 3. In Thread_Elevatoe_Panel, finish the process in line 60, which will receive a job send by server, and reply the information your all things need in line 63 to 66
 4. Do the function that to update the panel of elevator as u like! (since i believe that you already have your own idea to design it)
 
