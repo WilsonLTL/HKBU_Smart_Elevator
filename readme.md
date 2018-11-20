@@ -12,7 +12,7 @@ Including 4 threading class - Thread_Server, Thread_kiosk_panel, Thread_Elevator
 ### Elevator part:
 1. Make sure the panel connect to the main class
 2. In Thread_Elevator_Panel, finish the if else in line 39 and 45, who check which type of message should be send
-3. In Thread_Elevatoe_Panel, finish the process in line 60, which will receive a job send by server, and reply the information your all things need in line 63 to 66
+3. In Thread_Elevator_Panel, finish the process in line 60, which will receive a job send by server, and reply the information your all things need in line 63 to 66
 4. Do the function that to update the panel of elevator as u like! (since i believe that you already have your own idea to design it)
 
 ### Admin part:
@@ -22,6 +22,7 @@ Including 4 threading class - Thread_Server, Thread_kiosk_panel, Thread_Elevator
 
 ### All
 1. please test it to make sure the program is runnable after modify the code.
+2. GUI is not a must in Elevator and Kiosk, finish all the code part first
 
 ## Thread_Server
 ### Svc_Req
@@ -34,7 +35,7 @@ Json format of Svc_Req<br >
     "dstFNO":int
 }
 ```
-PID: The unqiue ID of each passenger in 4 digital : String <br >
+PID: The unique ID of each passenger in 4 digital : String <br >
 srcFNO: The current floor of the panel : Integer <br >
 dstFNO: The floor that passenger want to go : Integer <br >
 
@@ -199,12 +200,12 @@ Json format of Admin_Reply <br >
    "result":[{
         "LNO":1,
         "Current_Floor":1,
-        "Next_Floot":1,
+        "Next_Floor":1,
         "Status":1
    },{
         "LNO":2,
         "Current_Floor":1,
-        "Next_Floot":1,
+        "Next_Floor":1,
         "Status":1
         }
         ...
@@ -213,7 +214,7 @@ Json format of Admin_Reply <br >
 ```
 PID: The unique ID of each passenger in 4 digital : String <br >
 Current_Floor : The current floor of the elevator : Integer <br >
-Next_Floot : The next floor of the elevator : Integer <br >
+Next_Floor : The next floor of the elevator : Integer <br >
 Status : The Status of the elevator : Integer <br >
 
 ## The detail information of elevator status
