@@ -7,30 +7,12 @@ import json.JSONObject;
 
 //======================================================================
 // AppKickstarter.myThreads.Thread_Central_Control_Panel
-public class Thread_Central_Control_Panel extends AppThread {
-	private final int sleepTime = 5;
-	Admin_Panel_UI ap;
-	MyTableModel mtm;
-
-	JSONObject json;
-
+public class Thread_Central_Control_Pane_old extends AppThread {
+    private final int sleepTime = 5;
 	// ------------------------------------------------------------
-	public Thread_Central_Control_Panel(String id, AppKickstarter appKickstarter) {
+	public Thread_Central_Control_Pane_old(String id, AppKickstarter appKickstarter) {
 		super(id, appKickstarter);
-		
 	} // AppKickstarter.myThreads.Thread_Central_Control_Panel
-
-	public void setGUI(Admin_Panel_UI ap){
-		this.ap = ap;
-	}
-
-	public void setMTM(MyTableModel mtm){
-		this.mtm = mtm;
-	}
-
-	public void setStatus(JSONObject json){
-		this.json = json;
-	}
 
 	// ------------------------------------------------------------
 	// run
@@ -38,6 +20,11 @@ public class Thread_Central_Control_Panel extends AppThread {
 		log.info(id + ": starting...");
         Timer.setSimulationTimer(id, mbox,sleepTime);
 		String msgToServer;
+
+		// public void GUIOnClick() {
+		// GUI onclick (Start/Stop), assign a string to msgToServer.
+		// msgToServer = "{["id":1],["id":2]}" etc..
+		// }
 
 		for (boolean quit = false; !quit;) {
 			Msg msg = mbox.receive();
@@ -54,18 +41,18 @@ public class Thread_Central_Control_Panel extends AppThread {
                     MBox thdServerMBox = thdS.getMBox();
                     thdServerMBox.send(new Msg(id, mbox, Msg.Type.Admin_Req, null,null));
 
-                    // // check any start or stop order??
-                    // // if yes
-                    // JSONObject req = new JSONObject();
-                    // req.put("LNO",12312);   // the id of the stop/start elev
-                    // req.put("Status",12);   // the following status of the elev PS: 11=start, 12=ready to stop
+                    // check any start or stop order??
+                    // if yes
+                    JSONObject req = new JSONObject();
+                    req.put("LNO",12312);   // the id of the stop/start elev
+                    req.put("Status",12);   // the following status of the elev PS: 11=start, 12=ready to stop
 
                     //send the message to server
-//                    log.info(id + ": send request Admin_Alert to Thread_Server :"+ req.toString());
-//                    AppThread thdS2 = appKickstarter.getThread("Thread_Server");
-//                    MBox thdServerMBox2 = thdS2.getMBox();
-//                    thdServerMBox2.send(new Msg(id, mbox, Msg.Type.Admin_Alert, json,null));
-//                    Timer.setSimulationTimer(id, mbox, sleepTime);
+                    log.info(id + ": send request Admin_Alert to Thread_Server :"+ req.toString());
+                    AppThread thdS2 = appKickstarter.getThread("Thread_Server");
+                    MBox thdServerMBox2 = thdS2.getMBox();
+                    thdServerMBox2.send(new Msg(id, mbox, Msg.Type.Admin_Alert, req,null));
+                    Timer.setSimulationTimer(id, mbox, sleepTime);
                     break;
 
 				case Admin_Reply:
@@ -86,16 +73,16 @@ public class Thread_Central_Control_Panel extends AppThread {
 //                    	]
 //                    }
 
-					// display the info of lifts (GUI)
+				// display the info of lifts (GUI)
 
-					int row = 0;
-//					for (JSONObject jo : res.result) {
-//						mtm.setValueAt(new Integer(jo.LNO), row, 0);
-//						mtm.setValueAt(new Integer(jo.Current_Floor), row, 1);
-//						mtm.setValueAt(new Integer(jo.Next_Floot), row, 2);
-//						row++;
-//					}
-					
+				// convert msg (String) to object?
+
+				// for testing
+				// for testing
+
+				// // send reply to msg sender
+				// MBox mbox = msg.getSenderMBox();
+				// mbox.send(new Msg(id, mbox, Msg.Type.HiHi, "HiHi, this is Thread B!"));
 				    break;
 
 			    case Terminate:
@@ -112,4 +99,4 @@ public class Thread_Central_Control_Panel extends AppThread {
 		appKickstarter.unregThread(this);
 		log.info(id + ": terminating...");
 	} // run
-}
+} // ThreadB

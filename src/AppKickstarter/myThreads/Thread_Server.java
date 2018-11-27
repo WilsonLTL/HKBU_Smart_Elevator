@@ -26,7 +26,8 @@ public class Thread_Server extends AppThread {
         for (int i = 1; i<= elev_num; i++){
             Thread_Elevator_Panel_list.add(new Thread_Elevator_Panel("Thread_Elevator_Panel" + i,appKickstarter));
         }
-        Thread_Central_Control_Panel = new Thread_Central_Control_Panel("Thread_Central_Control_Panel",appKickstarter);
+        Thread_Central_Control_Panel ccp = new Thread_Central_Control_Panel("Thread_Central_Control_Panel",appKickstarter);
+        new Admin_Panel_UI(ccp);
 
         for (Thread_kiosk_panel tkp: Thread_kiosk_panel_list){
             new Thread(tkp).start();
