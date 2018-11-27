@@ -65,11 +65,13 @@ public class Thread_Central_Control_Pane_old extends AppThread {
 //                    		"LNO":1,
 //                    		"Current_Floor":1,
 //                    		"Next_Floot":1,
-//                    		"Status":1
+//                    		"Status":1,
+//							"Direction":0/1
 //                    	},{"LNO":2,
 //                    		"Current_Floor":1,
 //                    		"Next_Floot":1,
-//                    		"Status":1} ....
+//                    		"Status":1,
+// 							"Direction":0/1} ....
 //                    	]
 //                    }
 

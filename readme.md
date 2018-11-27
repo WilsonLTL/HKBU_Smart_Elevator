@@ -201,12 +201,14 @@ Json format of Admin_Reply <br >
         "LNO":1,
         "Current_Floor":1,
         "Next_Floor":1,
-        "Status":1
+        "Status":1,
+        "Direction":0/1
    },{
         "LNO":2,
         "Current_Floor":1,
         "Next_Floor":1,
-        "Status":1
+        "Status":1,
+        "Direction":0/1
         }
         ...
     ]
