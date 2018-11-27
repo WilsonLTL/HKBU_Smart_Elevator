@@ -2,9 +2,11 @@ package AppKickstarter.myThreads;
 
 import AppKickstarter.misc.*;
 import AppKickstarter.AppKickstarter;
+import json.JSONArray;
 import json.JSONObject;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.Random;
 
 public class Thread_Server extends AppThread {
@@ -26,8 +28,8 @@ public class Thread_Server extends AppThread {
         for (int i = 1; i<= elev_num; i++){
             Thread_Elevator_Panel_list.add(new Thread_Elevator_Panel("Thread_Elevator_Panel" + i,appKickstarter));
         }
-        Thread_Central_Control_Panel ccp = new Thread_Central_Control_Panel("Thread_Central_Control_Panel",appKickstarter);
-        new Admin_Panel_UI(ccp);
+        Thread_Central_Control_Panel = new Thread_Central_Control_Panel("Thread_Central_Control_Panel",appKickstarter);
+        new Admin_Panel_UI(Thread_Central_Control_Panel);
 
         for (Thread_kiosk_panel tkp: Thread_kiosk_panel_list){
             new Thread(tkp).start();
@@ -100,10 +102,23 @@ public class Thread_Server extends AppThread {
 
                     // send the message to Admin
                     // reply the work list
+                    JSONArray Arr = new JSONArray();
+                    JSONObject result = new JSONObject();
+
+                    for (int i =0 ;i< Integer.parseInt(appKickstarter.getProperty("Bldg.NElevators"));i++){
+                        JSONObject obj = new JSONObject();
+                        obj.put("LNO",i+1);
+                        obj.put("Current_Floor",i+1);
+                        obj.put("Next_Floot",i+1);
+                        obj.put("Status",2);
+                        obj.put("Direction",0);
+                        Arr.put(obj);
+                    }
+                    result.put("result",Arr);
 
                     AppThread thdEAR = appKickstarter.getThread(msg.getSender()); // 1,2,3,4,5 thread
                     MBox thdEARMBox = thdEAR.getMBox();
-                    thdEARMBox.send(new Msg(id, mbox, Msg.Type.Admin_Reply, null,null));
+                    thdEARMBox.send(new Msg(id, mbox, Msg.Type.Admin_Reply, result,null));
                     break;
 
                 case Admin_Alert:
