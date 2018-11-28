@@ -47,6 +47,8 @@ public class Msg {
         Svc_Reply,      // server to kiosk
         Elev_Arr,       // elev to server PS: page 4
         Elev_Dep,        // elev to server
+        Elev_Arr_FromElev,       // elev to server PS: page 4
+        Elev_Dep_FromElev,        // elev to server
         Elev_Job,       // jobs to elev
         Elev_Reply,     // elev to server
         Admin_Req,      // admin to server, ask for update elev infos
