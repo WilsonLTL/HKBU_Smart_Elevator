@@ -114,7 +114,9 @@ class WindowHandler extends WindowAdapter {
 
 class MyTableModel extends AbstractTableModel {
     Object[][] data = { { "1", "1", "2", false, "", "O" },
-                        { "2", "1", "3", true, "", "O" } };
+            { "2", "1", "3", true, "", "O" } ,{ "1", "1", "2", false, "", "O" },
+            { "2", "1", "3", true, "", "O" } ,{ "1", "1", "2", false, "", "O" },{ "1", "1", "2", false, "", "O" },
+           };
 
     String[] columns = { "Lift No.", "Current Floor", "Next Floor", "Status", "x", "y" };
 
