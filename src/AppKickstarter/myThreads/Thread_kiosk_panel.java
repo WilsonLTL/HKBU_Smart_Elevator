@@ -28,8 +28,8 @@ public class Thread_kiosk_panel extends AppThread {
                     if(true){
                         JSONObject req = new JSONObject();
                         req.put("PID","Passenger-XXXX"); //the id of the kiosk panel, xxxx is a 4 digit number
-                        req.put("srcFNO",102319203); // current floor
-                        req.put("dstFNO",102319203); // to which floor
+                        req.put("srcFNO",1); // current floor
+                        req.put("dstFNO",(int)Math.floor(Math.random() * 60 + 1)); // to which floor
 
                         log.info("Send kiosk panel request to Thread_Server");
                         // send the message to server

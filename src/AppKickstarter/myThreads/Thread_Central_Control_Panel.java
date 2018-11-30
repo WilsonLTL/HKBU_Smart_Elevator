@@ -11,7 +11,7 @@ public class Thread_Central_Control_Panel extends AppThread {
 	private final int sleepTime = 5;
 	Admin_Panel_UI ap;
 	MyTableModel mtm;
-
+	int count =0;
 	JSONObject json;
 
 	// ------------------------------------------------------------
@@ -69,11 +69,12 @@ public class Thread_Central_Control_Panel extends AppThread {
                     break;
 
 				case Admin_Reply:
-				    log.info(id + ": [" + msg.getSender() + "]: message received: [" + msg + "] ");
-                    JSONObject res = msg.getDetails();
-                    log.info(id + ": json receive:"+res.toString());
-                    // get back the result
-                    // sturture:
+					count +=1;
+					log.info(id + ": [" + msg.getSender() + "]: message received: [" + msg + "] ");
+					JSONObject res = msg.getDetails();
+					log.info(id + ": json receive:"+res.toString());
+					// get back the result
+					// sturture:
 //                     {
 //                    	"result":[{
 //                    		"LNO":1,
@@ -90,17 +91,15 @@ public class Thread_Central_Control_Panel extends AppThread {
 //                    }
 
 					// display the info of lifts (GUI)
-
 					int row = 0;
 					for (Object jo : res.getJSONArray("result")) {
-					    JSONObject Jobject = (JSONObject)jo;
+						JSONObject Jobject = (JSONObject)jo;
 						mtm.setValueAt(Jobject.getInt("LNO"), row, 0);
 						mtm.setValueAt(Jobject.getInt("Current_Floor"), row, 1);
-						mtm.setValueAt(Jobject.getInt("Next_Floot"), row, 2);
+						mtm.setValueAt(Jobject.getInt("Next_Floor"), row, 2);
 						row++;
 					}
-					
-				    break;
+					break;
 
 			    case Terminate:
 				    quit = true;

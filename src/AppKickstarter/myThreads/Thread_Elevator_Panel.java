@@ -47,6 +47,7 @@ public class Thread_Elevator_Panel extends AppThread{
             switch (msg.getType()) {
                 case Elev_Arr_FromElev:
                         res = msg.getDetails();
+                        res.put("Status",elevator.getEleStatus());
                         AppThread thdARR = appKickstarter.getThread("Thread_Server"); //thread 1,2,3,4,5
                         MBox thdARRMBox = thdARR.getMBox();
                        // System.out.println(" ARR "+res.toString());
@@ -56,6 +57,7 @@ public class Thread_Elevator_Panel extends AppThread{
 
                     case Elev_Dep_FromElev:
                         res = msg.getDetails();
+                        res.put("Status",elevator.getEleStatus());
                         AppThread thdDEP = appKickstarter.getThread("Thread_Server"); //thread 1,2,3,4,5
                         MBox thdDEPMBox = thdDEP.getMBox();
                        // System.out.println(" DEP "+res.toString());
@@ -79,6 +81,7 @@ public class Thread_Elevator_Panel extends AppThread{
                     res.put("Current_Floor",elevator.getCurrentFloor());       //current_floor
                     res.put("Dir",elevator.getWorkList().get(0));       //Direction 0 to up, 1 to down
                     res.put("Work_List",elevator.getWorkList());
+                    res.put("Status",elevator.getEleStatus());
 
                     // reply to server
                     log.info(id + ": send request Elev_Reply to Thread_Server");
@@ -101,6 +104,24 @@ public class Thread_Elevator_Panel extends AppThread{
                     log.info(""+msg.getType());
                     break;
             }
+            res = new JSONObject();
+            res.put("LNO",elevator.getElevator_id());
+            res.put("Current_Floor",elevator.getCurrentFloor());       //current_floor
+            if (elevator.getWorkList().size() >=1){
+                res.put("Dir",elevator.getWorkList().get(0));
+            }else{
+                res.put("Dir",0);
+            }
+            res.put("Work_List",elevator.getWorkList());
+            res.put("Status",elevator.getEleStatus());
+
+            // reply to server
+            log.info(id + ": send request Elev_Reply to Thread_Server");
+
+            log.info(res + ": Content");
+            AppThread thdK2 = appKickstarter.getThread("Thread_Server"); //thread 1,2,3,4,5
+            MBox thdKiosk2MBox = thdK2.getMBox();
+            thdKiosk2MBox.send(new Msg(id, mbox, Msg.Type.Elev_Reply, res,null));
         }
 
         // declaring our departure
