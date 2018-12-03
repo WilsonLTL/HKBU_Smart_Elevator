@@ -12,11 +12,14 @@ public class Thread_Central_Control_Panel extends AppThread {
 	Admin_Panel_UI ap;
 	MyTableModel mtm;
 	int count =0;
-	JSONObject json;
+	JSONObject req;
 
 	// ------------------------------------------------------------
 	public Thread_Central_Control_Panel(String id, AppKickstarter appKickstarter) {
 		super(id, appKickstarter);
+		req = new JSONObject();
+		req.put("LNO", 1);
+		req.put("Status", 12);
 		
 	} // AppKickstarter.myThreads.Thread_Central_Control_Panel
 
@@ -29,7 +32,12 @@ public class Thread_Central_Control_Panel extends AppThread {
 	}
 
 	public void setStatus(JSONObject json){
-		this.json = json;
+		this.req = json;
+//		System.out.println(json);
+		log.info(id + ": send request Admin_Alert to Thread_Server :"+ json.toString());
+		AppThread thdS2 = appKickstarter.getThread("Thread_Server");
+		MBox thdServerMBox2 = thdS2.getMBox();
+		thdServerMBox2.send(new Msg(id, mbox, Msg.Type.Admin_Alert, json,null));
 	}
 
 	// ------------------------------------------------------------
@@ -56,15 +64,15 @@ public class Thread_Central_Control_Panel extends AppThread {
 
                     // // check any start or stop order??
                     // // if yes
-                    JSONObject req = new JSONObject();
-                    req.put("LNO",12312);   // the id of the stop/start elev
-                    req.put("Status",12);   // the following status of the elev PS: 11=start, 12=ready to stop
+//                    JSONObject req = new JSONObject();
+//                    req.put("LNO",6);   // the id of the stop/start elev
+//                    req.put("Status",12);   // the following status of the elev PS: 11=start, 12=ready to stop
 
                     //send the message to server
-                    log.info(id + ": send request Admin_Alert to Thread_Server :"+ req.toString());
+//                    log.info(id + ": send request Admin_Alert to Thread_Server :"+ this.req.toString());
 //                    AppThread thdS2 = appKickstarter.getThread("Thread_Server");
 //                    MBox thdServerMBox2 = thdS2.getMBox();
-//                    thdServerMBox2.send(new Msg(id, mbox, Msg.Type.Admin_Alert, json,null));
+//                    thdServerMBox2.send(new Msg(id, mbox, Msg.Type.Admin_Alert, this.req,null));
 //                    Timer.setSimulationTimer(id, mbox, sleepTime);
                     break;
 
@@ -97,6 +105,8 @@ public class Thread_Central_Control_Panel extends AppThread {
 						mtm.setValueAt(Jobject.getInt("LNO"), row, 0);
 						mtm.setValueAt(Jobject.getInt("Current_Floor"), row, 1);
 						mtm.setValueAt(Jobject.getInt("Next_Floor"), row, 2);
+//						mtm.setValueAt(Jobject.getString("Status"), row, 3);
+						mtm.setValueAt(Jobject.getInt("Direction") < 1 ? "^^^" : "vvv", row, 4);
 						row++;
 					}
 					break;
