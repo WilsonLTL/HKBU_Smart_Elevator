@@ -46,6 +46,7 @@ public Logger log ;
                             Thread.sleep(ElevatorTime.getAccDown());
                             this.currentFloor--;
                         }
+                        mBox.send(new Msg("Thread_Elevator_Panel"+elevator_id, mBox, Msg.Type.Elev_Dep_FromElev, res,null));
                     }
                     this.workList.remove(0);
                     updateElevator_panel();

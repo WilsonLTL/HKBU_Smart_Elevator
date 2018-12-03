@@ -5,8 +5,8 @@ import AppKickstarter.AppKickstarter;
 import json.JSONArray;
 import json.JSONObject;
 
+import java.net.ServerSocket;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.Random;
 
 public class Thread_Server extends AppThread {
@@ -17,12 +17,15 @@ public class Thread_Server extends AppThread {
     private JSONArray elev_list = new JSONArray();
     private JSONObject obj,result = new JSONObject();
     private Thread_Central_Control_Panel Thread_Central_Control_Panel;
-    private final int elev_num ,floor_num;
+    private Thread_Socket_Server Thread_Socket_Server;
+    private ServerSocket server;
+    private final int elev_num ,floor_num,ServerPort;
 
     public Thread_Server(String id, AppKickstarter appKickstarter) {
         super(id, appKickstarter);
         elev_num = Integer.parseInt(appKickstarter.getProperty("Bldg.NElevators"));
         floor_num = Integer.parseInt(appKickstarter.getProperty("Bldg.MaxFloorNumber"));
+        ServerPort = Integer.parseInt(appKickstarter.getProperty("Bldg.MaxFloorNumber"));
 
         for (int i = 1; i<= floor_num; i++){
             Thread_kiosk_panel_list.add(new Thread_kiosk_panel("Thread_kiosk_Panel" + i,appKickstarter));
@@ -41,15 +44,14 @@ public class Thread_Server extends AppThread {
 
         Thread_Central_Control_Panel = new Thread_Central_Control_Panel("Thread_Central_Control_Panel",appKickstarter);
         new Admin_Panel_UI(Thread_Central_Control_Panel);
-
+        Thread_Socket_Server = new Thread_Socket_Server("Thread_Socket_Server",appKickstarter);
+        new Thread(Thread_Socket_Server).start();
         for (Thread_kiosk_panel tkp: Thread_kiosk_panel_list){
             new Thread(tkp).start();
         }
-
         for (Thread_Elevator_Panel tep: Thread_Elevator_Panel_list){
             new Thread(tep).start();
         }
-
         new Thread(Thread_Central_Control_Panel).start();
     }
 
@@ -73,12 +75,33 @@ public class Thread_Server extends AppThread {
 
                     // cal elev and assign
                     // then result ...
+
+                    // to src Fno
                     LNO = (int)(Math.random() * 6 + 1);
+                    System.out.println("LNO"+LNO);
+                    res = new JSONObject();
+                    res.put("PID",PID);
+                    res.put("srcFNO",srcFNO);
+                    res.put("dstFNO",srcFNO);
+                    res.put("LNO",LNO); //1 to 5 random,
+                    log.info("Send job request to Thread_Elevator_Panel"+LNO);
+//                  send jobs to elev
+                    AppThread thdK = appKickstarter.getThread("Thread_Elevator_Panel"+LNO); //thread 1,2,3,4,5
+                    MBox thdKioskMBox = thdK.getMBox();
+                    thdKioskMBox.send(new Msg(id, mbox, Msg.Type.Elev_Job, res,null));
+
+                    //to dst Fno
                     res = new JSONObject();
                     res.put("PID",PID);
                     res.put("srcFNO",srcFNO);
                     res.put("dstFNO",dstFNO);
                     res.put("LNO",LNO); //1 to 5 random,
+                    log.info("Send job request to Thread_Elevator_Panel"+LNO);
+//                  send jobs to elev
+                    AppThread thdK2 = appKickstarter.getThread("Thread_Elevator_Panel"+LNO); //thread 1,2,3,4,5
+                    MBox thdKiosk2MBox = thdK2.getMBox();
+                    thdKiosk2MBox.send(new Msg(id, mbox, Msg.Type.Elev_Job, res,null));
+
 
                     log.info("Receive kiosk panel request from "+msg.getSender());
                     // send the message to Svc
@@ -86,11 +109,7 @@ public class Thread_Server extends AppThread {
                     MBox thdElevMBox = thdE.getMBox();
                     thdElevMBox.send(new Msg(id, mbox, Msg.Type.Svc_Reply, res,null));
 
-                    log.info("Send job request to Thread_Elevator_Panel"+LNO);
-//                  send jobs to elev
-                    AppThread thdK = appKickstarter.getThread("Thread_Elevator_Panel"+LNO); //thread 1,2,3,4,5
-                    MBox thdKioskMBox = thdK.getMBox();
-                    thdKioskMBox.send(new Msg(id, mbox, Msg.Type.Elev_Job, res,null));
+
                     break;
 
 //                case Elev_Reply:

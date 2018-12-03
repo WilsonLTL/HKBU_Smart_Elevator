@@ -41,7 +41,7 @@ public class AppKickstarter {
 	try {
 	    Thread.sleep(30 * 1000);
 	} catch (Exception e) {}
-	appKickstarter.stopApp();
+//	appKickstarter.stopApp();
     } // main
 
 
