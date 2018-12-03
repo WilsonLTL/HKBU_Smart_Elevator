@@ -4,6 +4,11 @@ Including 4 threading class - Thread_Server, Thread_kiosk_panel, Thread_Elevator
 
 ## The things that you guys need to do:
 
+## test and run
+1. cd SESTester_v1-2
+2. java -jar SESTesterKickstartTester.ejb
+3. run the appkickerstart
+
 ### Kiosk part
 1. Make sure the panel connect to the main class
 2. In Thread_kiosk_panel, finish the if else in line 28

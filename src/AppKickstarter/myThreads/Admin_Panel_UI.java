@@ -5,6 +5,7 @@ import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.event.*;
 import javax.swing.table.*;
+import java.util.*;
 
 import json.JSONObject;
 
@@ -14,7 +15,7 @@ public class Admin_Panel_UI {
 
     public Admin_Panel_UI(){}
 
-    public Admin_Panel_UI(Thread_Central_Control_Panel thread_ccp) {
+    public Admin_Panel_UI(Thread_Central_Control_Panel thread_ccp, int e_num) {
 
         this.thread_ccp = thread_ccp;
 
@@ -30,8 +31,8 @@ public class Admin_Panel_UI {
         // cp.setLayout(null);
 
         // Build Elements
-        MyTableModel mtm = new MyTableModel();
-        
+        MyTableModel mtm = new MyTableModel(e_num);
+
         JTable jt = new JTable(mtm);
         jt.setPreferredScrollableViewportSize(new Dimension(400, 300));
 
@@ -69,7 +70,7 @@ class CheckBoxModelListener implements TableModelListener {
     public void tableChanged(TableModelEvent e) {
         int row = e.getFirstRow();
         int column = e.getColumn();
-        if (column == 3) {
+        if (column == 5) {
             TableModel model = (TableModel) e.getSource();
             String columnName = model.getColumnName(column);
             Boolean checked = (Boolean) model.getValueAt(row, column);
@@ -80,19 +81,19 @@ class CheckBoxModelListener implements TableModelListener {
                 System.out.println("LNO: " + (row+1) + ", " + columnName + ": " + "START");
 
                 res.put("LNO", (model.getValueAt(row, 0)));
-                res.put("Status", new Integer(11));
+                res.put("Status", 11);
 
                 thread_ccp.setStatus(res);
             } else {
                 System.out.println("LNO: " + (row+1) + ", " + columnName + ": " + "STOP");
 
                 res.put("LNO", (model.getValueAt(row, 0)));
-                res.put("Status", new Integer(12));
+                res.put("Status", 12);
 
                 thread_ccp.setStatus(res);
             }
         }
-        
+
     }
 }
 
@@ -104,7 +105,7 @@ class WindowHandler extends WindowAdapter {
     }
 
     public void windowClosing(WindowEvent e) {
-        int result = JOptionPane.showConfirmDialog(f, "確定要結束程式嗎?", "確認訊息", JOptionPane.YES_NO_OPTION,
+        int result = JOptionPane.showConfirmDialog(f, "Stop?", "Confirm", JOptionPane.YES_NO_OPTION,
                 JOptionPane.WARNING_MESSAGE);
         if (result == JOptionPane.YES_OPTION) {
             System.exit(0);
@@ -113,12 +114,18 @@ class WindowHandler extends WindowAdapter {
 }
 
 class MyTableModel extends AbstractTableModel {
-    Object[][] data = { { "1", "1", "2", false, "", "O" },
-            { "2", "1", "3", true, "", "O" } ,{ "1", "1", "2", false, "", "O" },
-            { "2", "1", "3", true, "", "O" } ,{ "1", "1", "2", false, "", "O" },{ "1", "1", "2", false, "", "O" },
-           };
+    Object[][] data;
 
-    String[] columns = { "Lift No.", "Current Floor", "Next Floor", "Status", "x", "y" };
+    public MyTableModel(){}
+
+    public MyTableModel(int e_num){
+        data = new Object[e_num][];
+        for (int i = 0; i < e_num; i++) {
+            this.data[i] = new Object[]{ "", "", "", "", "", true };
+        }
+    }
+
+    String[] columns = { "Lift No.", "Current Floor", "Next Floor", "Status", "Direction", "On/Off" };
 
     public int getColumnCount() {
         return columns.length;
