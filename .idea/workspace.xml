@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="711c9136-4d5a-425d-a910-6bec15e3d27d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/PassengerStream_v3/PSKickstarter.jar" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PassengerStream_v3/PassengerStream.ejb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/PassengerStream_v3/etc/SmartElevator.cfg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/SESTester_v1-2/etc/SESTester.model.AppKickstarter.AppKickstarter.log" afterPath="$PROJECT_DIR$/SESTester_v1-2/etc/SESTester.model.AppKickstarter.AppKickstarter.log" />
+      <change beforePath="$PROJECT_DIR$/SESTester_v1-2/etc/SESTester.model.AppKickstarter.AppKickstarter.log.lck" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/etc/AppKickstarter.AppKickstarter.log" afterPath="$PROJECT_DIR$/etc/AppKickstarter.AppKickstarter.log" />
+      <change beforePath="$PROJECT_DIR$/out/production/comp4007/AppKickstarter/myThreads/Thread_Elevator_Panel.class" afterPath="$PROJECT_DIR$/out/production/comp4007/AppKickstarter/myThreads/Thread_Elevator_Panel.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/comp4007/AppKickstarter/myThreads/Thread_Server$1.class" afterPath="$PROJECT_DIR$/out/production/comp4007/AppKickstarter/myThreads/Thread_Server$1.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/comp4007/AppKickstarter/myThreads/Thread_Server.class" afterPath="$PROJECT_DIR$/out/production/comp4007/AppKickstarter/myThreads/Thread_Server.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/comp4007/AppKickstarter/myThreads/Thread_Socket_Server.class" afterPath="$PROJECT_DIR$/out/production/comp4007/AppKickstarter/myThreads/Thread_Socket_Server.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/comp4007/Server/SocketServer.class" afterPath="$PROJECT_DIR$/out/production/comp4007/Server/SocketServer.class" />
+      <change beforePath="$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Elevator_Panel.java" afterPath="$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Elevator_Panel.java" />
+      <change beforePath="$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Server.java" afterPath="$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Server.java" />
+      <change beforePath="$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Socket_Server.java" afterPath="$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Socket_Server.java" />
+      <change beforePath="$PROJECT_DIR$/src/Server/SocketServer.java" afterPath="$PROJECT_DIR$/src/Server/SocketServer.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,21 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Thread_Central_Control_Pane_old.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Central_Control_Pane_old.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="47" column="31" lean-forward="false" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Thread_Elevator_Panel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Elevator_Panel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="51" column="46" lean-forward="false" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
+            <state relative-caret-position="1740">
+              <caret line="123" column="35" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -37,8 +42,8 @@
       <file leaf-file-name="Thread_Central_Control_Panel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Central_Control_Panel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1770">
-              <caret line="125" column="57" lean-forward="false" selection-start-line="125" selection-start-column="57" selection-end-line="125" selection-end-column="57" />
+            <state relative-caret-position="540">
+              <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,11 +51,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Thread_kiosk_panel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_kiosk_panel.java">
+      <file leaf-file-name="Thread_Server.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+            <state relative-caret-position="870">
+              <caret line="58" column="34" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="280" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#6394#6428#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Elevator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AppKickstarter/Elevator/Elevator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="750">
+              <caret line="57" column="61" lean-forward="false" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -59,41 +77,19 @@
       <file leaf-file-name="SmartElevator.cfg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etc/SmartElevator.cfg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+            <state relative-caret-position="120">
+              <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Thread_Server.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Server.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1095">
-              <caret line="80" column="48" lean-forward="false" selection-start-line="80" selection-start-column="48" selection-end-line="80" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SmartElevator.cfg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SESTester_v1-2/etc/SmartElevator.cfg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="135">
-                <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <first_editor relative-caret-position="195">
+                <caret line="13" column="55" lean-forward="false" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -101,11 +97,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Thread_Socket_Server.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Thread_Socket_Server.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Socket_Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="45" column="52" lean-forward="false" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+            <state relative-caret-position="400">
+              <caret line="124" column="35" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,11 +109,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SocketServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Server/SocketServer.java">
+      <file leaf-file-name="AppKickstarter.AppKickstarter.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/etc/AppKickstarter.AppKickstarter.log">
+          <provider selected="true" editor-type-id="LogFileEditorProvider">
+            <state relative-caret-position="60">
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JSONObject.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/json/JSONObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="38" column="59" lean-forward="false" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
+            <state relative-caret-position="12705">
+              <caret line="872" column="38" lean-forward="false" selection-start-line="872" selection-start-column="38" selection-end-line="872" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -134,27 +139,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>port</find>
-      <find>json</find>
-      <find>req</find>
-      <find>Next_Floot</find>
-      <find>json receive:</find>
-      <find>enter</find>
-      <find>elev_list</find>
-      <find>我取得的值</find>
-      <find>stopApp</find>
-      <find>quit</find>
-      <find>json receiv</find>
-      <find>json receive</find>
-      <find>19send</find>
-      <find>Elev_Arr_FromElev</find>
-      <find>System.out.println(&quot;send&quot;)</find>
-      <find>count</find>
-      <find>0send</find>
-      <find>Msg</find>
-      <find>socket</find>
-      <find>Thread_Central_Control_Panel</find>
-      <find>send</find>
       <find>System.out.print(&quot;send&quot;)</find>
       <find>mbox</find>
       <find>stop</find>
@@ -164,6 +148,27 @@
       <find>Work_List</find>
       <find>getEleStatus</find>
       <find>&amp;&amp; res.getJSONArray(&quot;Work_List&quot;).length() !=0</find>
+      <find>input</find>
+      <find>5</find>
+      <find>Thread_Elevator_Panel5</find>
+      <find>quit</find>
+      <find>type</find>
+      <find>receive</find>
+      <find>in</find>
+      <find>Msg:Elev_Arr</find>
+      <find>Msg</find>
+      <find>Message Send</find>
+      <find>send_msg</find>
+      <find>Resend msg successful</find>
+      <find>Resend msg successful:</find>
+      <find>Elev_Dep</find>
+      <find>LNO</find>
+      <find>send message fail</find>
+      <find>last_msg</find>
+      <find>reply_message</find>
+      <find>objobj</find>
+      <find>Svc_Req</find>
+      <find>read_request</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,7 +191,6 @@
         <option value="$PROJECT_DIR$/src/Thread_Elevator_Panel.java" />
         <option value="$PROJECT_DIR$/src/AppKickstarter/myThreads/ThreadB.java" />
         <option value="$PROJECT_DIR$/etc/MyApp.cfg" />
-        <option value="$PROJECT_DIR$/etc/SmartElevator.cfg" />
         <option value="$PROJECT_DIR$/src/AppKickstarter/timer/Timer.java" />
         <option value="$PROJECT_DIR$/src/AppKickstarter/misc/Msg.java" />
         <option value="$PROJECT_DIR$/src/AppKickstarter/myThreads/ThreadA.java" />
@@ -196,23 +200,25 @@
         <option value="$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Central_Control_Pane_old.java" />
         <option value="$PROJECT_DIR$/src/json/Property.java" />
         <option value="$PROJECT_DIR$/src/AppKickstarter/AppKickstarter.java" />
-        <option value="$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Elevator_Panel.java" />
         <option value="$PROJECT_DIR$/src/AppKickstarter/Server/SocketServer.java" />
-        <option value="$PROJECT_DIR$/src/Server/SocketServer.java" />
         <option value="$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_kiosk_panel.java" />
         <option value="$PROJECT_DIR$/src/AppKickstarter/myThreads/Admin_Panel_UI.java" />
         <option value="$PROJECT_DIR$/src/AppKickstarter/Elevator/Elevator.java" />
         <option value="$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Central_Control_Panel.java" />
-        <option value="$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Socket_Server.java" />
-        <option value="$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Server.java" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/etc/SmartElevator.cfg" />
+        <option value="$PROJECT_DIR$/src/Server/SocketServer.java" />
+        <option value="$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Server.java" />
+        <option value="$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Elevator_Panel.java" />
+        <option value="$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Socket_Server.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="834" />
     <option name="y" value="23" />
-    <option name="width" value="1865" />
-    <option name="height" value="979" />
+    <option name="width" value="846" />
+    <option name="height" value="978" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -240,6 +246,11 @@
             <path>
               <item name="HKBU_Smart_Elevator" type="b2602c69:ProjectViewProjectNode" />
               <item name="HKBU_Smart_Elevator" type="462c0819:PsiDirectoryNode" />
+              <item name="etc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HKBU_Smart_Elevator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HKBU_Smart_Elevator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -248,14 +259,34 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="AppKickstarter" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="HKBU_Smart_Elevator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HKBU_Smart_Elevator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AppKickstarter" type="462c0819:PsiDirectoryNode" />
+              <item name="Elevator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HKBU_Smart_Elevator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HKBU_Smart_Elevator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="AppKickstarter" type="462c0819:PsiDirectoryNode" />
+              <item name="myThreads" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HKBU_Smart_Elevator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HKBU_Smart_Elevator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Server" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,21 +299,21 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/json" />
+      <recent name="$PROJECT_DIR$/etc" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="AppKickstarter.Server" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/GUI" />
       <recent name="$PROJECT_DIR$/src/AppKickstarter/myThreads" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="AppKickstarter.Server" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/json" />
-      <recent name="$PROJECT_DIR$/etc" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -410,28 +441,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="979" extended-state="6" />
+    <frame x="834" y="23" width="846" height="978" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18325792" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18233296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2760181" sideWeight="0.50497514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27714932" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2751982" sideWeight="0.4950249" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22737557" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22650057" sideWeight="0.4950249" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14835165" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3482587" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917705" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24953213" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997735" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -484,25 +515,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/GUI/Elevator_panel.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI/Elevator_panel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GUI/Admin_panel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/GUI/Admin_panel.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -553,13 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
           <caret line="74" column="11" lean-forward="false" selection-start-line="63" selection-start-column="10" selection-end-line="74" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/AppKickstarter.AppKickstarter.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="-6889">
-          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -647,31 +652,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppKickstarter/myThreads/ThreadA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/json/JSONObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="831" column="0" lean-forward="false" selection-start-line="831" selection-start-column="0" selection-end-line="831" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppKickstarter/myThreads/Admin_Panel_UI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="747">
           <caret line="157" column="1" lean-forward="false" selection-start-line="157" selection-start-column="1" selection-end-line="157" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppKickstarter/Elevator/Elevator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="29" column="55" lean-forward="true" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -679,14 +664,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="42" column="19" lean-forward="false" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/etc/SmartElevator.cfg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -699,57 +676,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Central_Control_Panel.java">
+    <entry file="file://$PROJECT_DIR$/PassengerStream_v3/etc/SmartElevator.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1770">
-          <caret line="125" column="57" lean-forward="false" selection-start-line="125" selection-start-column="57" selection-end-line="125" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Elevator_Panel.java">
+    <entry file="file://$PROJECT_DIR$/PassengerStream_v3/PassengerStream.ejb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="51" column="46" lean-forward="false" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
-          <folding />
+        <state relative-caret-position="-4310">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Central_Control_Pane_old.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="47" column="31" lean-forward="false" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
+        <state relative-caret-position="279">
+          <caret line="88" column="0" lean-forward="false" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Server/SocketServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="38" column="59" lean-forward="false" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
+        <state relative-caret-position="570">
+          <caret line="46" column="42" lean-forward="false" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Socket_Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="45" column="52" lean-forward="false" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1095">
-          <caret line="80" column="48" lean-forward="false" selection-start-line="80" selection-start-column="48" selection-end-line="80" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -757,15 +710,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="135">
-            <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <first_editor relative-caret-position="195">
+            <caret line="13" column="55" lean-forward="false" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
             <folding />
           </first_editor>
           <second_editor />
@@ -775,6 +727,85 @@
         <state relative-caret-position="3090">
           <caret line="206" column="23" lean-forward="true" selection-start-line="206" selection-start-column="23" selection-end-line="206" selection-end-column="23" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppKickstarter/myThreads/ThreadA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppKickstarter/Elevator/Elevator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="57" column="61" lean-forward="false" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/SmartElevator.cfg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Central_Control_Panel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="40" column="5" lean-forward="false" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/AppKickstarter.AppKickstarter.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etc/AppKickstarter.AppKickstarter.log.1" />
+    <entry file="file://$PROJECT_DIR$/src/json/JSONObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12705">
+          <caret line="872" column="38" lean-forward="false" selection-start-line="872" selection-start-column="38" selection-end-line="872" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Elevator_Panel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1740">
+          <caret line="123" column="35" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="34" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="280" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#6394#6428#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppKickstarter/myThreads/Thread_Socket_Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="124" column="35" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

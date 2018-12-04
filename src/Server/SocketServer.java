@@ -47,7 +47,6 @@ public class SocketServer extends Thread {
                 req.put("PID",data.split(" ")[1]); //the id of the kiosk panel, xxxx is a 4 digit number
                 req.put("srcFNO",Integer.parseInt(data.split(" ")[2])); // current floor
                 req.put("dstFNO",Integer.parseInt(data.split(" ")[3].split("\n")[0])); // to which floor
-
                 in.close();
                 in = null;
                 socket.close();

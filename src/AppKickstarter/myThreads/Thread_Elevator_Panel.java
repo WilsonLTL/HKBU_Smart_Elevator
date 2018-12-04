@@ -79,7 +79,10 @@ public class Thread_Elevator_Panel extends AppThread{
                     res = new JSONObject();
                     res.put("LNO",elevator.getElevator_id());
                     res.put("Current_Floor",elevator.getCurrentFloor());       //current_floor
-                    res.put("Dir",elevator.getWorkList().get(0));       //Direction 0 to up, 1 to down
+                    if(elevator.getWorkList().size()<=0)
+                        res.put("Dir",dstFNO);
+                    else
+                        res.put("Dir",elevator.getWorkList().get(0));      //Direction 0 to up, 1 to down
                     res.put("Work_List",elevator.getWorkList());
                     res.put("Status",elevator.getEleStatus());
 

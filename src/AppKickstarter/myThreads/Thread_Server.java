@@ -44,7 +44,7 @@ public class Thread_Server extends AppThread {
 
         Thread_Central_Control_Panel = new Thread_Central_Control_Panel("Thread_Central_Control_Panel",appKickstarter);
         new Admin_Panel_UI(Thread_Central_Control_Panel,elev_num);
-        Thread_Socket_Server = new Thread_Socket_Server("Thread_Socket_Server",appKickstarter);
+        Thread_Socket_Server = new Thread_Socket_Server("Thread_Socket_Server",appKickstarter,this);
         new Thread(Thread_Socket_Server).start();
         for (Thread_kiosk_panel tkp: Thread_kiosk_panel_list){
             new Thread(tkp).start();
@@ -88,6 +88,19 @@ public class Thread_Server extends AppThread {
                         obj = (JSONObject)elev_list.get(LNO-1);
                     }while (obj.get("Status").toString().equals("12") || obj.get("Status").toString().equals("7"));
 
+                    // to which elev
+                    int min_job = 100;
+                    for (int i=0;i<elev_num;i++){
+                        obj = (JSONObject)elev_list.get(i);
+                        if (obj.getJSONArray("Work_List").length() == 0 && obj.getInt("Status") != 7 && obj.getInt("Status") != 12){
+                            LNO = i+1;
+                            break;
+                        }else if(obj.getJSONArray("Work_List").length() <= min_job && obj.getInt("Status") != 7 && obj.getInt("Status") != 12){
+                            LNO = i+1;
+                            min_job = obj.getJSONArray("Work_List").length();
+                        }
+                    }
+
                     System.out.println("LNO"+LNO);
                     res = new JSONObject();
                     res.put("PID",PID);
@@ -118,8 +131,6 @@ public class Thread_Server extends AppThread {
                     AppThread thdE = appKickstarter.getThread(msg.getSender()); //thread ....
                     MBox thdElevMBox = thdE.getMBox();
                     thdElevMBox.send(new Msg(id, mbox, Msg.Type.Svc_Reply, res,null));
-
-
                     break;
 
 //                case Elev_Reply:
@@ -146,9 +157,36 @@ public class Thread_Server extends AppThread {
 
                 case Elev_Arr:
                 case Elev_Dep:
+                    res = msg.getDetails();
+                    System.out.println(msg.getType().toString()+":"+res);
+                    obj =new JSONObject();
+                    obj.put("type",msg.getType().toString());
+                    obj.put("LNO",""+res.getInt("LNO"));
+                    obj.put("FNO",""+res.getInt("Current_Floor"));
+                    if (res.getInt("Current_Floor") > res.getInt("Dir") && res.getJSONArray("Work_List").length() !=0){
+                        obj.put("DIR", "U");
+                    }else if (res.getInt("Current_Floor") < res.getInt("Dir") && res.getJSONArray("Work_List").length() !=0) {
+                        obj.put("DIR", "D");
+                    }else{
+                        obj.put("DIR", "S");
+                    }
+                    obj.put("LIST",res.getJSONArray("Work_List"));
+                    System.out.println(obj.toString());
+                    AppThread thADM = appKickstarter.getThread("Thread_Socket_Server");
+                    MBox thdADMBox = thADM.getMBox();
+                    switch (msg.getType()){
+                        case Elev_Arr:
+                            thdADMBox.send(new Msg(id, mbox, Msg.Type.Elev_Arr, obj,null));
+                            break;
+                        case Elev_Dep:
+                            thdADMBox.send(new Msg(id, mbox, Msg.Type.Elev_Dep, obj,null));
+                            break;
+                    }
+
                 case Elev_Reply:
                     log.info(id + ": [" + msg.getSender() + "]: message received: [" + msg.getType() + "] ");
                     res = msg.getDetails();
+                    obj =new JSONObject();
                     obj = (JSONObject)elev_list.get(Integer.parseInt(msg.getSender().split("Thread_Elevator_Panel")[1])-1);
                     if (obj.get("Status").toString().equals("12")){
                         if (res.getJSONArray("Work_List").length() == 0){
@@ -214,7 +252,11 @@ public class Thread_Server extends AppThread {
                     Status = Integer.parseInt(res.get("Status").toString());
                     log.info("Receive admin panel alert from "+msg.getSender());
                     obj = (JSONObject) elev_list.get(LNO-1);
-                    obj.put("Status",Status);
+                    if (Status == 11){
+                        obj.put("Status",8);
+                    }else{
+                        obj.put("Status",Status);
+                    }
                     result = new JSONObject().put("result",elev_list);
                     AppThread thdAAR = appKickstarter.getThread("Thread_Central_Control_Panel"); // 1,2,3,4,5 thread
                     MBox thdAARMBox = thdAAR.getMBox();
