@@ -1,48 +1,80 @@
-181204-21:12:08 [INFO] -- 
-181204-21:12:08 [INFO] -- 
-181204-21:12:08 [INFO] -- ============================================================
-181204-21:12:08 [INFO] -- AppKickstarter: Application Starting...
-181204-21:12:08 [INFO] -- timer: starting...
-181204-21:12:08 [INFO] -- NetOutgoing: starting...
-181204-21:12:08 [INFO] -- NetIncoming: starting...
-181204-21:12:08 [INFO] -- NetHandler: starting...
-181204-21:12:08 [INFO] -- NetHandler: 127.0.0.1, 54321
-181204-21:12:08 [INFO] -- NetHandler: connection trial #1 succeeded!
-181204-21:12:08 [INFO] -- NetIncoming: receiving link up from NetHandler
-181204-21:12:08 [INFO] -- NetOutgoing: receiving link up from NetHandler
-181204-21:12:12 [INFO] -- Sending: [Svc_Req Passenger-0012 33 2]
-181204-21:12:24 [INFO] -- Sending: [Svc_Req Passenger-0012 33 2]
-181204-21:12:25 [INFO] -- Sending: [Svc_Req Passenger-0012 33 2]
-181204-21:12:25 [INFO] -- Sending: [Svc_Req Passenger-0012 33 2]
-181204-21:12:25 [INFO] -- Sending: [Svc_Req Passenger-0012 33 2]
-181204-21:12:25 [INFO] -- Sending: [Svc_Req Passenger-0012 33 2]
-181204-21:12:26 [INFO] -- Sending: [Svc_Req Passenger-0012 33 2]
-181204-21:12:26 [INFO] -- Sending: [Svc_Req Passenger-0012 33 2]
-181204-21:12:26 [INFO] -- Sending: [Svc_Req Passenger-0012 33 2]
-181204-21:12:26 [INFO] -- Sending: [Svc_Req Passenger-0012 33 2]
-181204-21:12:26 [INFO] -- Sending: [Svc_Req Passenger-0012 33 2]
-181204-21:12:26 [INFO] -- Sending: [Svc_Req Passenger-0012 33 2]
-181204-21:12:26 [INFO] -- Sending: [Svc_Req Passenger-0012 33 2]
-181204-21:12:27 [INFO] -- Sending: [Svc_Req Passenger-0012 33 2]
-181204-21:12:27 [INFO] -- Sending: [Svc_Req Passenger-0012 33 2]
-181204-21:13:07 [SEVERE] -- NetIncoming: IO Exception encountered -- class java.net.SocketException: Connection reset
-181204-21:13:07 [INFO] -- NetIncoming: netMsg is null, inform NetHandler that the link is going down!
-181204-21:13:07 [INFO] -- NetHandler: connection trial #1 link down from NetIncoming
-181204-21:13:07 [INFO] -- NetIncoming: Receiving link down from NetHandler.
-181204-21:13:07 [INFO] -- NetOutgoing: receiving link down from NetHandler
-181204-21:13:07 [INFO] -- NetHandler: Connection trial #2: Exception encountered while making connection to server: Connection refused (Connection refused)
-181204-21:13:07 [INFO] -- NetHandler: Connection trial #2 failed!
-181204-21:13:12 [INFO] -- NetHandler: connection trial #3 succeeded!
-181204-21:13:12 [INFO] -- NetIncoming: receiving link up from NetHandler
-181204-21:13:12 [INFO] -- NetOutgoing: receiving link up from NetHandler
-181204-21:13:14 [INFO] -- Sending: [Svc_Req Passenger-0012 33 2]
-181204-21:13:18 [INFO] -- Sending: [Svc_Req Passenger-0012 10 2]
-181204-21:13:18 [INFO] -- NetIncoming: receiving [Elev_Dep A 0 D 33 ]
-181204-21:13:23 [INFO] -- Sending: [Svc_Req Passenger-0012 10 3]
-181204-21:13:23 [INFO] -- NetIncoming: receiving [Elev_Dep A 0 D 33 ]
-181204-21:13:33 [INFO] -- NetIncoming: netMsg is null, inform NetHandler that the link is going down!
-181204-21:13:33 [INFO] -- NetHandler: connection trial #3 link down from NetIncoming
-181204-21:13:33 [INFO] -- NetIncoming: Receiving link down from NetHandler.
-181204-21:13:33 [INFO] -- NetOutgoing: receiving link down from NetHandler
-181204-21:13:33 [INFO] -- NetHandler: Connection trial #4: Exception encountered while making connection to server: Connection refused (Connection refused)
-181204-21:13:33 [INFO] -- NetHandler: Connection trial #4 failed!
+181204-22:02:48 [INFO] -- 
+181204-22:02:48 [INFO] -- 
+181204-22:02:48 [INFO] -- ============================================================
+181204-22:02:48 [INFO] -- AppKickstarter: Application Starting...
+181204-22:02:48 [INFO] -- NetHandler: starting...
+181204-22:02:48 [INFO] -- NetOutgoing: starting...
+181204-22:02:48 [INFO] -- NetIncoming: starting...
+181204-22:02:48 [INFO] -- timer: starting...
+181204-22:02:48 [INFO] -- NetHandler: 127.0.0.1, 54321
+181204-22:02:48 [INFO] -- NetHandler: connection trial #1 succeeded!
+181204-22:02:48 [INFO] -- NetIncoming: receiving link up from NetHandler
+181204-22:02:48 [INFO] -- NetOutgoing: receiving link up from NetHandler
+181204-22:02:52 [INFO] -- Sending: [Svc_Req Passenger-0123 12 32]
+181204-22:02:58 [INFO] -- Sending: [Svc_Req Passenger-0123 12 32]
+181204-22:03:01 [SEVERE] -- NetIncoming: IO Exception encountered -- class java.net.SocketException: Connection reset
+181204-22:03:01 [INFO] -- NetIncoming: netMsg is null, inform NetHandler that the link is going down!
+181204-22:03:01 [INFO] -- NetHandler: connection trial #1 link down from NetIncoming
+181204-22:03:01 [INFO] -- NetIncoming: Receiving link down from NetHandler.
+181204-22:03:01 [INFO] -- NetOutgoing: receiving link down from NetHandler
+181204-22:03:01 [INFO] -- NetHandler: Connection trial #2: Exception encountered while making connection to server: Connection refused (Connection refused)
+181204-22:03:01 [INFO] -- NetHandler: Connection trial #2 failed!
+181204-22:03:06 [INFO] -- NetHandler: connection trial #3 succeeded!
+181204-22:03:06 [INFO] -- NetIncoming: receiving link up from NetHandler
+181204-22:03:06 [INFO] -- NetOutgoing: receiving link up from NetHandler
+181204-22:03:07 [INFO] -- Sending: [Svc_Req Passenger-0123 12 32]
+181204-22:03:07 [INFO] -- NetIncoming: netMsg is null, inform NetHandler that the link is going down!
+181204-22:03:07 [INFO] -- NetHandler: connection trial #3 link down from NetIncoming
+181204-22:03:07 [INFO] -- NetIncoming: Receiving link down from NetHandler.
+181204-22:03:07 [INFO] -- NetOutgoing: receiving link down from NetHandler
+181204-22:03:07 [INFO] -- NetHandler: connection trial #4 succeeded!
+181204-22:03:07 [INFO] -- NetIncoming: receiving link up from NetHandler
+181204-22:03:07 [INFO] -- NetOutgoing: receiving link up from NetHandler
+181204-22:03:11 [INFO] -- Sending: [Svc_Req Passenger-0123 12 32]
+181204-22:03:11 [INFO] -- NetIncoming: netMsg is null, inform NetHandler that the link is going down!
+181204-22:03:11 [INFO] -- NetHandler: connection trial #4 link down from NetIncoming
+181204-22:03:11 [INFO] -- NetIncoming: Receiving link down from NetHandler.
+181204-22:03:11 [INFO] -- NetOutgoing: receiving link down from NetHandler
+181204-22:03:11 [INFO] -- NetHandler: connection trial #5 succeeded!
+181204-22:03:11 [INFO] -- NetOutgoing: receiving link up from NetHandler
+181204-22:03:11 [INFO] -- NetIncoming: receiving link up from NetHandler
+181204-22:03:12 [INFO] -- Sending: [Svc_Req Passenger-0123 12 32]
+181204-22:03:12 [INFO] -- NetIncoming: netMsg is null, inform NetHandler that the link is going down!
+181204-22:03:12 [INFO] -- NetHandler: connection trial #5 link down from NetIncoming
+181204-22:03:12 [INFO] -- NetIncoming: Receiving link down from NetHandler.
+181204-22:03:12 [INFO] -- NetOutgoing: receiving link down from NetHandler
+181204-22:03:12 [INFO] -- NetHandler: connection trial #6 succeeded!
+181204-22:03:12 [INFO] -- NetIncoming: receiving link up from NetHandler
+181204-22:03:12 [INFO] -- NetOutgoing: receiving link up from NetHandler
+181204-22:03:12 [INFO] -- Sending: [Svc_Req Passenger-0123 12 32]
+181204-22:03:12 [INFO] -- NetIncoming: netMsg is null, inform NetHandler that the link is going down!
+181204-22:03:12 [INFO] -- NetHandler: connection trial #6 link down from NetIncoming
+181204-22:03:12 [INFO] -- NetIncoming: Receiving link down from NetHandler.
+181204-22:03:12 [INFO] -- NetOutgoing: receiving link down from NetHandler
+181204-22:03:12 [INFO] -- NetHandler: connection trial #7 succeeded!
+181204-22:03:12 [INFO] -- NetIncoming: receiving link up from NetHandler
+181204-22:03:12 [INFO] -- NetOutgoing: receiving link up from NetHandler
+181204-22:03:13 [INFO] -- Sending: [Svc_Req Passenger-0123 12 32]
+181204-22:03:13 [INFO] -- NetIncoming: netMsg is null, inform NetHandler that the link is going down!
+181204-22:03:13 [INFO] -- NetHandler: connection trial #7 link down from NetIncoming
+181204-22:03:13 [INFO] -- NetIncoming: Receiving link down from NetHandler.
+181204-22:03:13 [INFO] -- NetOutgoing: receiving link down from NetHandler
+181204-22:03:13 [INFO] -- NetHandler: connection trial #8 succeeded!
+181204-22:03:13 [INFO] -- NetIncoming: receiving link up from NetHandler
+181204-22:03:13 [INFO] -- NetOutgoing: receiving link up from NetHandler
+181204-22:03:13 [INFO] -- Sending: [Svc_Req Passenger-0123 12 32]
+181204-22:03:13 [INFO] -- NetIncoming: netMsg is null, inform NetHandler that the link is going down!
+181204-22:03:13 [INFO] -- NetHandler: connection trial #8 link down from NetIncoming
+181204-22:03:13 [INFO] -- NetIncoming: Receiving link down from NetHandler.
+181204-22:03:13 [INFO] -- NetOutgoing: receiving link down from NetHandler
+181204-22:03:13 [INFO] -- NetHandler: connection trial #9 succeeded!
+181204-22:03:13 [INFO] -- NetIncoming: receiving link up from NetHandler
+181204-22:03:13 [INFO] -- NetOutgoing: receiving link up from NetHandler
+181204-22:03:13 [INFO] -- Sending: [Svc_Req Passenger-0123 12 32]
+181204-22:03:13 [INFO] -- NetIncoming: netMsg is null, inform NetHandler that the link is going down!
+181204-22:03:13 [INFO] -- NetHandler: connection trial #9 link down from NetIncoming
+181204-22:03:13 [INFO] -- NetIncoming: Receiving link down from NetHandler.
+181204-22:03:13 [INFO] -- NetOutgoing: receiving link down from NetHandler
+181204-22:03:13 [INFO] -- NetHandler: connection trial #10 succeeded!
+181204-22:03:13 [INFO] -- NetOutgoing: receiving link up from NetHandler
+181204-22:03:13 [INFO] -- NetIncoming: receiving link up from NetHandler

@@ -31,7 +31,6 @@ public class Thread_Socket_Server extends AppThread {
         try {
             this.thread_server = thread_server;
             server = new ServerSocket(ServerPort,0, InetAddress.getByName("127.0.0.1"));
-            socket = server.accept();
         } catch (java.io.IOException e) {
             System.out.println("Socket啟動有問題 !");
             System.out.println("IOException :" + e.toString());
@@ -108,6 +107,7 @@ public class Thread_Socket_Server extends AppThread {
 
     public void read_request(){
         try {
+            socket = server.accept();
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             String data = in.readLine();
 
@@ -119,7 +119,7 @@ public class Thread_Socket_Server extends AppThread {
             AppThread thdS = appKickstarter.getThread("Thread_Server");
             MBox thdServerMBox = thdS.getMBox();
             thdServerMBox.send(new Msg(id, mbox, Msg.Type.Svc_Req, req,null));
-
+            socket.close();
         } catch (Exception e) {
             System.out.println("Socket連線有問題 !");
             System.out.println("IOException :" + e.toString());
@@ -153,8 +153,8 @@ public class Thread_Socket_Server extends AppThread {
             Msg msg = mbox.receive();
             switch (msg.getType()) {
                 case Svc_Reply:
-                    obj = msg.getDetails();
-                    reply_message(obj);
+//                    obj = msg.getDetails();
+//                    reply_message(obj);
                     break;
 
                 case Elev_Arr:
